@@ -1,0 +1,2003 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<SimscapeMultibodyImportXML version="2.0" xmlns="urn:mathworks:SimscapeMultibody:import" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Created by="" on="11/25/23||13:10:08" using="Simscape Multibody Link Version 7.4" from="SolidWorks 31.2.1"/>
+<ModelUnits mass="kilogram" length="inch"/>
+<DataUnits mass="kilogram" length="meter"/>
+<RootAssembly name="SimplifiedAssem" uid="SimplifiedAssem" version="168">
+<AssemblyFile name="SimplifiedAssem.SLDASM" type="SolidWorks Assembly"/>
+<InstanceTree>
+<Instance name="upperbit.STEP-1" uid="upperbit.STEP-1" entityUid="upperbit.STEP" rigid="true">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.037255973024381051 0.11409633791914545 -0.11811717393675596</Translation>
+</Transform>
+<Instance name="Rack Motor Support.STEP-1" uid="Rack Motor Support.STEP-1" grounded="true" entityUid="Rack Motor Support.STEP*:*Default">
+<Transform>
+<Rotation>0 -1 0 1 0 -1e-14 1e-14 0 1</Rotation>
+<Translation>0.21579427280799196 0.11633952840397602 0.21536501688682599</Translation>
+</Transform>
+</Instance>
+<Instance name="Small Motor Mount Base.STEP-1" uid="Small Motor Mount Base.STEP-1" grounded="true" entityUid="Small Motor Mount Base.STEP*:*Default">
+<Transform>
+<Rotation>1 -2.1599999999999999e-13 -5.8000000000000005e-14 -5.8000000000000005e-14 7.4999999999999996e-14 -1 2.1599999999999999e-13 1 7.4999999999999996e-14</Rotation>
+<Translation>0.16757244608319399 0.12588985512874001 0.22628701688685099</Translation>
+</Transform>
+</Instance>
+<Instance name="Small Motor Mount Triangle.STEP-2" uid="Small Motor Mount Triangle.STEP-2" grounded="true" entityUid="Small Motor Mount Triangle.STEP*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.27397289953272103 0.086481791766346988 0.24524808024924</Translation>
+</Transform>
+</Instance>
+<Instance name="10 Tooth Gear.STEP-1" uid="10 Tooth Gear.STEP-1" grounded="true" entityUid="10 Tooth Gear.STEP*:*Default">
+<Transform>
+<Rotation>-1 4.3509399306306009e-14 -1.3530311220369033e-13 -3.4e-14 -0.99758163665958766 -0.069504519274492971 -1.3799999999999999e-13 -0.069504519274492971 0.99758163665958766</Rotation>
+<Translation>0.265766704170321 0.11566635512878201 0.25159808024923602</Translation>
+</Transform>
+</Instance>
+<Instance name="Small Motor.STEP-1" uid="Small Motor.STEP-1" grounded="true" entityUid="Small Motor.STEP*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.21684833617035998 0.115666355128765 0.24459808024920299</Translation>
+</Transform>
+</Instance>
+<Instance name="Small Motor Mount Front.STEP-1" uid="Small Motor Mount Front.STEP-1" grounded="true" entityUid="Small Motor Mount Front.STEP*:*Default">
+<Transform>
+<Rotation>2.3999999999999999e-14 1 1.3799999999999999e-13 1 -2.3999999999999999e-14 -1.42e-13 -1.42e-13 1.3799999999999999e-13 -1</Rotation>
+<Translation>0.24478833617032897 0.11566635512873699 0.24524808024924599</Translation>
+</Transform>
+</Instance>
+<Instance name="Small Motor Mount Base.STEP-2" uid="Small Motor Mount Base.STEP-2" grounded="true" entityUid="Small Motor Mount Base.STEP*:*Default">
+<Transform>
+<Rotation>1 -2.1599999999999999e-13 -3.7e-14 3.7e-14 8.6999999999999995e-14 1 -2.1599999999999999e-13 -1 8.6999999999999995e-14</Rotation>
+<Translation>0.16757244608323199 0.105442855128732 0.21942901688684199</Translation>
+</Transform>
+</Instance>
+<Instance name="BEST_HingePlate_Half Plate 4.STEP-2" uid="BEST_HingePlate_Half Plate 4.STEP-2" grounded="true" entityUid="BEST_HingePlate_Half Plate 4.STEP*:*Default">
+<Transform>
+<Rotation>0 0 -1 1e-14 -1 0 -1 -1e-14 0</Rotation>
+<Translation>0.172872772807973 0.304294154376474 0.031049686886845992</Translation>
+</Transform>
+</Instance>
+<Instance name="Small Motor Mount Triangle.STEP-1" uid="Small Motor Mount Triangle.STEP-1" grounded="true" entityUid="Small Motor Mount Triangle.STEP*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.27397289953273901 0.15170891849110499 0.24524808024921901</Translation>
+</Transform>
+</Instance>
+<Instance name="Rack.STEP-1" uid="Rack.STEP-1" grounded="true" entityUid="Rack.STEP*:*Default">
+<Transform>
+<Rotation>0 1 0 -1 0 0 0 0 1</Rotation>
+<Translation>0.265519272807972 0.32880036840397808 0.172120016886843</Translation>
+</Transform>
+</Instance>
+<Instance name="Custom Arm Base.STEP-1" uid="Custom Arm Base.STEP-1" grounded="true" entityUid="Custom Arm Base.STEP*:*Default">
+<Transform>
+<Rotation>0 1 0 -6.8000000000000001e-14 0 -1 -1 0 6.8000000000000001e-14</Rotation>
+<Translation>0.18296927280797201 0.31009961840398803 0.138555186886822</Translation>
+</Transform>
+</Instance>
+<Instance name="Wheel Hub.STEP-1" uid="Wheel Hub.STEP-1" grounded="true" entityUid="Wheel Hub.STEP*:*Default">
+<Transform>
+<Rotation>1.3799999999999999e-13 3.4e-14 -1 -1.84e-13 -1 -3.4e-14 -1 1.84e-13 -1.3799999999999999e-13</Rotation>
+<Translation>0.26894170417027302 0.20298357927706998 0.57903704734327999</Translation>
+</Transform>
+</Instance>
+<Instance name="Surgical Tool Mount.STEP-1" uid="Surgical Tool Mount.STEP-1" grounded="true" entityUid="Surgical Tool Mount.STEP*:*Default">
+<Transform>
+<Rotation>0 -1 0 0 0 -1 1 0 0</Rotation>
+<Translation>0.265519272807972 0.29470086840397802 0.099095016886842996</Translation>
+</Transform>
+</Instance>
+<Instance name="Acrylic Servo Mount.STEP-1" uid="Acrylic Servo Mount.STEP-1" grounded="true" entityUid="Acrylic Servo Mount.STEP*:*Default">
+<Transform>
+<Rotation>0 1 0 -1e-14 0 1 1 0 1e-14</Rotation>
+<Translation>0.243294272807972 0.009299368403976993 0.125855186886843</Translation>
+</Transform>
+</Instance>
+<Instance name="Inner Interface Custom Tool.STEP-1" uid="Inner Interface Custom Tool.STEP-1" grounded="true" entityUid="Inner Interface Custom Tool.STEP*:*Default">
+<Transform>
+<Rotation>0 1 0 6.8000000000000001e-14 0 1 1 0 -6.8000000000000001e-14</Rotation>
+<Translation>0.18296927280797201 0.30692461840398799 0.138555186886822</Translation>
+</Transform>
+</Instance>
+<Instance name="Interface Custom Tool.STEP-1" uid="Interface Custom Tool.STEP-1" grounded="true" entityUid="Interface Custom Tool.STEP*:*Default">
+<Transform>
+<Rotation>0 1 0 1.0000000000000001e-15 0 -1 -1 0 -1.0000000000000001e-15</Rotation>
+<Translation>0.24646927280797198 0.31844986840397804 0.13855518688684301</Translation>
+</Transform>
+</Instance>
+<Instance name="Servo_screw.STEP-1" uid="Servo_screw.STEP-1" grounded="true" entityUid="Servo_screw.STEP*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.20227274054795599 0.28306639840397807 0.026082793086841</Translation>
+</Transform>
+</Instance>
+<Instance name="futaba_s3003_servo_servo_body (1).STEP-1" uid="futaba_s3003_servo_servo_body (1).STEP-1" grounded="true" entityUid="futaba_s3003_servo_servo_body (1).STEP*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.19249427280797199 0.24767784840397797 0.016240293086843008</Translation>
+</Transform>
+</Instance>
+<Instance name="Igus Rail Official_11 inches.STEP-1" uid="Igus Rail Official_11 inches.STEP-1" grounded="true" entityUid="Igus Rail Official_11 inches.STEP*:*Default">
+<Transform>
+<Rotation>0 0 1 1e-14 1 0 -1 1e-14 0</Rotation>
+<Translation>0.24436927280799198 -0.11226047159602399 0.18568501688682301</Translation>
+</Transform>
+</Instance>
+<Instance name="futaba_s3003_servo_servo_body (1).STEP-2" uid="futaba_s3003_servo_servo_body (1).STEP-2" grounded="true" entityUid="futaba_s3003_servo_servo_body (1).STEP*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.19249427280797199 0.24767784840397797 0.219655481886843</Translation>
+</Transform>
+</Instance>
+<Instance name="Surgical Tool Support 2.STEP-1" uid="Surgical Tool Support 2.STEP-1" grounded="true" entityUid="Surgical Tool Support 2.STEP*:*Default">
+<Transform>
+<Rotation>0 1 0 -1.1e-14 0 1 1 0 1.1e-14</Rotation>
+<Translation>0.18296927280797201 0.30892486840397704 0.13855518688684601</Translation>
+</Transform>
+</Instance>
+<Instance name="Surgical Tool Support 1.STEP-1" uid="Surgical Tool Support 1.STEP-1" grounded="true" entityUid="Surgical Tool Support 1.STEP*:*Default">
+<Transform>
+<Rotation>0 1 0 -1e-14 0 1 1 0 1e-14</Rotation>
+<Translation>0.18296927280797201 0.30892486840397704 0.13855518688684601</Translation>
+</Transform>
+</Instance>
+<Instance name="Rack and Pinion Spine.STEP-1" uid="Rack and Pinion Spine.STEP-1" grounded="true" entityUid="Rack and Pinion Spine.STEP*:*Default">
+<Transform>
+<Rotation>0 1 0 1e-14 0 -1 -1 0 -1e-14</Rotation>
+<Translation>0.24436927280799198 0.16713952840397703 0.172185016886826</Translation>
+</Transform>
+</Instance>
+<Instance name="6-arm_servo_horn.STEP-1" uid="6-arm_servo_horn.STEP-1" grounded="true" entityUid="6-arm_servo_horn.STEP*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.20227274054795599 0.28977199840397805 0.026082793086841</Translation>
+</Transform>
+</Instance>
+<Instance name="Servo_screw.STEP-2" uid="Servo_screw.STEP-2" grounded="true" entityUid="Servo_screw.STEP*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.20227274054795899 0.28306639840397807 0.22949798188684001</Translation>
+</Transform>
+</Instance>
+<Instance name="6-arm_servo_horn.STEP-2" uid="6-arm_servo_horn.STEP-2" grounded="true" entityUid="6-arm_servo_horn.STEP*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.20227274054795899 0.28977199840397805 0.22949798188684101</Translation>
+</Transform>
+</Instance>
+<Instance name="BEST_HingePlate_Half Plate 4.STEP-1" uid="BEST_HingePlate_Half Plate 4.STEP-1" grounded="true" entityUid="BEST_HingePlate_Half Plate 4.STEP*:*Default">
+<Transform>
+<Rotation>0 0 -1 1.1e-14 -1 0 -1 -1.1e-14 0</Rotation>
+<Translation>0.172872772807973 0.304294154376475 -0.070550313113154003</Translation>
+</Transform>
+</Instance>
+<Instance name="Igus Rail Official_14.3646 Inches.STEP-1" uid="Igus Rail Official_14.3646 Inches.STEP-1" grounded="true" entityUid="Igus Rail Official_14.3646 Inches.STEP*:*Default">
+<Transform>
+<Rotation>0 0 1 1.1e-14 1 0 -1 1.1e-14 0</Rotation>
+<Translation>0.25046927280797199 -0.036060471596023991 0.18562001688684199</Translation>
+</Transform>
+</Instance>
+<Instance name="BEST_HingePlate_Half Plate 2.STEP-1" uid="BEST_HingePlate_Half Plate 2.STEP-1" grounded="true" entityUid="BEST_HingePlate_Half Plate 2.STEP*:*Default">
+<Transform>
+<Rotation>0 0 1 6.8000000000000001e-14 -1 0 1 6.8000000000000001e-14 0</Rotation>
+<Translation>0.172872772807973 0.304294154376472 -0.0070503131131780111</Translation>
+</Transform>
+</Instance>
+<Instance name="BEST_HingePlate_Half Plate 2.STEP-2" uid="BEST_HingePlate_Half Plate 2.STEP-2" grounded="true" entityUid="BEST_HingePlate_Half Plate 2.STEP*:*Default">
+<Transform>
+<Rotation>0 0 1 6.8000000000000001e-14 -1 0 1 6.8000000000000001e-14 0</Rotation>
+<Translation>0.172872772807972 0.304294154376479 0.094549686886821999</Translation>
+</Transform>
+</Instance>
+<Instance name="Surgical Tool Support.STEP-1" uid="Surgical Tool Support.STEP-1" grounded="true" entityUid="Surgical Tool Support.STEP*:*Default">
+<Transform>
+<Rotation>0 -1 0 1 0 -1.1e-14 1.1e-14 0 1</Rotation>
+<Translation>0.25916927280797197 0.233550368403976 0.183459846886845</Translation>
+</Transform>
+</Instance>
+<Instance name="BEST_HingePlate_Half Plate 2.STEP-3" uid="BEST_HingePlate_Half Plate 2.STEP-3" grounded="true" entityUid="BEST_HingePlate_Half Plate 2.STEP*:*Default">
+<Transform>
+<Rotation>0 0 -1 1.1e-14 -1 0 -1 -1.1e-14 0</Rotation>
+<Translation>0.172872772807973 0.304294154376472 0.168273186886846</Translation>
+</Transform>
+</Instance>
+<Instance name="BEST_HingePlate_Half Plate 4.STEP-3" uid="BEST_HingePlate_Half Plate 4.STEP-3" grounded="true" entityUid="BEST_HingePlate_Half Plate 4.STEP*:*Default">
+<Transform>
+<Rotation>0 0 1 -1.1e-14 -1 0 1 -1.1e-14 0</Rotation>
+<Translation>0.172872772807973 0.30429415437647001 0.23177318688684601</Translation>
+</Transform>
+</Instance>
+<Instance name="BEST_HingePlate_Half Plate 4.STEP-4" uid="BEST_HingePlate_Half Plate 4.STEP-4" grounded="true" entityUid="BEST_HingePlate_Half Plate 4.STEP*:*Default">
+<Transform>
+<Rotation>0 0 1 -1.1e-14 -1 0 1 -1.1e-14 0</Rotation>
+<Translation>0.172872772807972 0.30429415437646901 0.33337318688684597</Translation>
+</Transform>
+</Instance>
+<Instance name="Biopsy Needle Cardboard.STEP-2" uid="Biopsy Needle Cardboard.STEP-2" grounded="true" entityUid="Biopsy Needle Cardboard.STEP*:*Default">
+<Transform>
+<Rotation>0 1 0 -1.1e-14 0 1 1 0 1.1e-14</Rotation>
+<Translation>0.188176272807973 0.32279961840398008 -0.078932313113154004</Translation>
+</Transform>
+</Instance>
+<Instance name="Biopsy Needle Cardboard.STEP-4" uid="Biopsy Needle Cardboard.STEP-4" grounded="true" entityUid="Biopsy Needle Cardboard.STEP*:*Default">
+<Transform>
+<Rotation>0 1 0 1.1e-14 0 -1 -1 0 -1.1e-14</Rotation>
+<Translation>0.188176272807973 0.31009961840397704 0.24015518688684601</Translation>
+</Transform>
+</Instance>
+<Instance name="Biopsy Needle Cardboard.STEP-1" uid="Biopsy Needle Cardboard.STEP-1" grounded="true" entityUid="Biopsy Needle Cardboard.STEP*:*Default">
+<Transform>
+<Rotation>0 1 0 -1.1e-14 0 1 1 0 1.1e-14</Rotation>
+<Translation>0.188176272807972 0.32279961840397797 0.21158018688684599</Translation>
+</Transform>
+</Instance>
+<Instance name="BEST_HingePin_Top.STEP-1" uid="BEST_HingePin_Top.STEP-1" grounded="true" entityUid="BEST_HingePin_Top.STEP*:*Default">
+<Transform>
+<Rotation>0 1.1e-14 -1 -1.1e-14 1 1.1e-14 1 1.1e-14 0</Rotation>
+<Translation>0.172872772807972 0.30429415437647001 0.238123186886846</Translation>
+</Transform>
+</Instance>
+<Instance name="BEST_HingePin_Top.STEP-2" uid="BEST_HingePin_Top.STEP-2" grounded="true" entityUid="BEST_HingePin_Top.STEP*:*Default">
+<Transform>
+<Rotation>0 -1.1e-14 1 1.1e-14 1 1.1e-14 -1 1.1e-14 0</Rotation>
+<Translation>0.172872772807972 0.304294154376474 0.024699686886845998</Translation>
+</Transform>
+</Instance>
+<Instance name="BEST_HingePin_Bottom.STEP-1" uid="BEST_HingePin_Bottom.STEP-1" grounded="true" entityUid="BEST_HingePin_Bottom.STEP*:*Default">
+<Transform>
+<Rotation>0 -1e-14 1 1e-14 1 1e-14 -1 1e-14 0</Rotation>
+<Translation>0.172872772807973 0.304294154376473 0.094549686886845993</Translation>
+</Transform>
+</Instance>
+<Instance name="BEST_HingePin_Bottom.STEP-2" uid="BEST_HingePin_Bottom.STEP-2" grounded="true" entityUid="BEST_HingePin_Bottom.STEP*:*Default">
+<Transform>
+<Rotation>0 0.69976794828280364 -0.71437022513265169 -1.1e-14 0.71437022513265169 0.69976794828280364 1 7.8580724764591701e-15 7.6974474311108409e-15</Rotation>
+<Translation>0.172872772807973 0.304294154376471 0.168273186886846</Translation>
+</Transform>
+</Instance>
+<Instance name="Biopsy Needle Cardboard.STEP-3" uid="Biopsy Needle Cardboard.STEP-3" grounded="true" entityUid="Biopsy Needle Cardboard.STEP*:*Default">
+<Transform>
+<Rotation>0 1 0 -1e-14 0 1 1 0 1e-14</Rotation>
+<Translation>0.188176272807972 0.32279961840398008 0.022667686886845992</Translation>
+</Transform>
+</Instance>
+<Instance name="BEST_HingePlate_Half Plate 2.STEP-4" uid="BEST_HingePlate_Half Plate 2.STEP-4" grounded="true" entityUid="BEST_HingePlate_Half Plate 2.STEP*:*Default">
+<Transform>
+<Rotation>0 0 -1 1.1e-14 -1 0 -1 -1.1e-14 0</Rotation>
+<Translation>0.172872772807973 0.304294154376471 0.26987318688684597</Translation>
+</Transform>
+</Instance>
+<Instance name="Claw Spacer.STEP-1" uid="Claw Spacer.STEP-1" grounded="true" entityUid="Claw Spacer.STEP*:*Default">
+<Transform>
+<Rotation>0 -1 0 1 0 0 0 0 1</Rotation>
+<Translation>0.27821927280797198 -0.036060471596021992 0.172120016886843</Translation>
+</Transform>
+</Instance>
+<Instance name="Left Claw Finger.STEP-1" uid="Left Claw Finger.STEP-1" grounded="true" entityUid="Left Claw Finger.STEP*:*Default">
+<Transform>
+<Rotation>0 0 1 6.8999999999999996e-14 -1 0 1 6.8999999999999996e-14 0</Rotation>
+<Translation>0.31584937280797198 -0.016439503856002999 0.52105251688684395</Translation>
+</Transform>
+</Instance>
+<Instance name="4-arm_servo_horn (1).STEP-2" uid="4-arm_servo_horn (1).STEP-2" grounded="true" entityUid="4-arm_servo_horn (1).STEP*:*Default">
+<Transform>
+<Rotation>0 1 0 -0.70710678118650561 0 0.70710678118658954 0.70710678118658954 0 0.70710678118650561</Rotation>
+<Translation>0.31386817280797302 -0.016439503856025994 0.203552516886844</Translation>
+</Transform>
+</Instance>
+<Instance name="4-arm_servo_horn (1).STEP-1" uid="4-arm_servo_horn (1).STEP-1" grounded="true" entityUid="4-arm_servo_horn (1).STEP*:*Default">
+<Transform>
+<Rotation>0 1 2.0000000000000002e-15 -0.70710678118650006 -2.0000000000000002e-15 0.70710678118659498 0.70710678118659498 -1.0000000000000001e-15 0.70710678118650006</Rotation>
+<Translation>0.31386817280797302 -0.016439503856004997 0.52105251688684395</Translation>
+</Transform>
+</Instance>
+<Instance name="Claw Spacer.STEP-2" uid="Claw Spacer.STEP-2" grounded="true" entityUid="Claw Spacer.STEP*:*Default">
+<Transform>
+<Rotation>0 1 0 1 0 1e-14 1e-14 0 -1</Rotation>
+<Translation>0.27821927280797198 -0.036060471596023991 0.18482001688684199</Translation>
+</Transform>
+</Instance>
+<Instance name="Claw Base.STEP-1" uid="Claw Base.STEP-1" grounded="true" entityUid="Claw Base.STEP*:*Default">
+<Transform>
+<Rotation>0 0 1 1e-14 -1 0 1 1e-14 0</Rotation>
+<Translation>0.29091927280797197 0.052839528403982011 0.36262001688684198</Translation>
+</Transform>
+</Instance>
+<Instance name="Claw Center.STEP-1" uid="Claw Center.STEP-1" grounded="true" entityUid="Claw Center.STEP*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.28933177280797201 -0.099560471596021993 0.36103251688684301</Translation>
+</Transform>
+</Instance>
+<Instance name="futaba_s3003_servo_servo_body (1).STEP-4" uid="futaba_s3003_servo_servo_body (1).STEP-4" grounded="true" entityUid="futaba_s3003_servo_servo_body (1).STEP*:*Default">
+<Transform>
+<Rotation>0 1 0 1 0 0 0 0 -1</Rotation>
+<Translation>0.27177402280797303 -0.026217971596022002 0.21339501688684301</Translation>
+</Transform>
+</Instance>
+<Instance name="Servo_screw.STEP-4" uid="Servo_screw.STEP-4" grounded="true" entityUid="Servo_screw.STEP*:*Default">
+<Transform>
+<Rotation>-1.0000000000000001e-15 1 0 -1 -1.0000000000000001e-15 0 0 0 1</Rotation>
+<Translation>0.30716257280797199 -0.016439503856023996 0.203552516886844</Translation>
+</Transform>
+</Instance>
+<Instance name="Right Claw Finger.STEP-1" uid="Right Claw Finger.STEP-1" grounded="true" entityUid="Right Claw Finger.STEP*:*Default">
+<Transform>
+<Rotation>0 0 1 6.8000000000000001e-14 -1 0 1 6.8000000000000001e-14 0</Rotation>
+<Translation>0.31584937280797298 -0.016439503856025994 0.203552516886844</Translation>
+</Transform>
+</Instance>
+<Instance name="Servo_screw.STEP-3" uid="Servo_screw.STEP-3" grounded="true" entityUid="Servo_screw.STEP*:*Default">
+<Transform>
+<Rotation>-1.0000000000000001e-15 1 0 -1 -1.0000000000000001e-15 0 0 0 1</Rotation>
+<Translation>0.30716257280797199 -0.016439503856002999 0.52105251688684395</Translation>
+</Transform>
+</Instance>
+<Instance name="futaba_s3003_servo_servo_body (1).STEP-3" uid="futaba_s3003_servo_servo_body (1).STEP-3" grounded="true" entityUid="futaba_s3003_servo_servo_body (1).STEP*:*Default">
+<Transform>
+<Rotation>0 1 0 1 0 0 0 0 -1</Rotation>
+<Translation>0.27177402280797303 -0.026217971596023001 0.53089501688684304</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="wheel-1" uid="wheel-1" entityUid="wheel" rigid="true">
+<Transform>
+<Rotation>-0.9935428107949773 5.4284158688346691e-16 0.11345784731615603 0.11345784731615603 -1.0658898614956527e-14 0.9935428107949773 1.7486720476627317e-15 1 1.0528482452001106e-14</Rotation>
+<Translation>-0.087423941205827527 0.026273641020955051 0.16086049644234304</Translation>
+</Transform>
+<Instance name="Wheels 75 Spike-2" uid="Wheels 75 Spike-2" entityUid="Wheels 75 Spike*:*Default">
+<Transform>
+<Rotation>-0.99419029198371556 1.089564949653693e-15 0.10763671922413319 1.0895649496533637e-15 1 0 -0.10763671922413319 0 -0.99419029198371556</Rotation>
+<Translation>0.05051127299353847 0.008129683145344957 -0.014185363219792916</Translation>
+</Transform>
+</Instance>
+<Instance name="8 Tooth Gear (1)-1" uid="8 Tooth Gear (1)-1" grounded="true" entityUid="8 Tooth Gear (1)*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.22542297163276148 0.0017796831453450179 -0.03073880785862794</Translation>
+</Transform>
+</Instance>
+<Instance name="Wheel Hub-1" uid="Wheel Hub-1" entityUid="Wheel Hub*:*Default">
+<Transform>
+<Rotation>1.0000000000000002 0 0 0 0 -1 0 1.0000000000000002 0</Rotation>
+<Translation>-0.3352170202848645 0.02400468314534504 -0.082264893821877502</Translation>
+</Transform>
+</Instance>
+<Instance name="Wheels 75 Spike-1" uid="Wheels 75 Spike-1" entityUid="Wheels 75 Spike*:*Default">
+<Transform>
+<Rotation>0.74147299317517201 1.4125129698048351e-16 0.67098271243889085 1.4125129698048832e-16 1 -3.6660455535191484e-16 -0.67098271243889085 3.6660455535191672e-16 0.74147299317517201</Rotation>
+<Translation>-0.032168603153486068 0.0017796831453450179 0.061380258324085626</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="wheel-3" uid="wheel-3" entityUid="wheel" rigid="true">
+<Transform>
+<Rotation>0.46341926949740003 -2.531982003353131e-16 0.8861391429445471 0.8861391429445471 -1.0958603504489969e-14 -0.46341926949740003 9.8281844423752991e-15 1 -4.8540591945221467e-15</Rotation>
+<Translation>0.18430080958064746 0.039644650940494228 0.16086049644234315</Translation>
+</Transform>
+<Instance name="Wheels 75 Spike-2" uid="Wheels 75 Spike-2" entityUid="Wheels 75 Spike*:*Default">
+<Transform>
+<Rotation>-0.99419029198371534 1.0895649496536889e-15 0.10763671922413316 1.0895649496533625e-15 1 0 -0.10763671922413316 0 -0.99419029198371534</Rotation>
+<Translation>0.05051127299353847 0.0081296831453449292 -0.014185363219792968</Translation>
+</Transform>
+</Instance>
+<Instance name="8 Tooth Gear (1)-1" uid="8 Tooth Gear (1)-1" grounded="true" entityUid="8 Tooth Gear (1)*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.22542297163276157 0.0017796831453449902 -0.030738807858627926</Translation>
+</Transform>
+</Instance>
+<Instance name="Wheel Hub-1" uid="Wheel Hub-1" entityUid="Wheel Hub*:*Default">
+<Transform>
+<Rotation>1 0 0 0 0 -1 0 1 0</Rotation>
+<Translation>-0.33521702028486455 0.024004683145345013 -0.082264893821877516</Translation>
+</Transform>
+</Instance>
+<Instance name="Wheels 75 Spike-1" uid="Wheels 75 Spike-1" entityUid="Wheels 75 Spike*:*Default">
+<Transform>
+<Rotation>0.74147299317517212 1.4125129698049628e-16 0.67098271243889096 1.4125129698047735e-16 1 -3.6660455535191958e-16 -0.67098271243889096 3.6660455535191879e-16 0.74147299317517212</Rotation>
+<Translation>-0.032168603153486089 0.0017796831453450179 0.06138025832408564</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="wheel-4" uid="wheel-4" entityUid="wheel" rigid="true">
+<Transform>
+<Rotation>-0.42609888802648077 0 0.9046765928344761 -0.9046765928344761 1.0351979336614665e-14 -0.42609888802648077 -9.365193395341451e-15 -1 -4.410966884204626e-15</Rotation>
+<Translation>0.1772884327169848 0.025527035997581729 -0.089580137266966883</Translation>
+</Transform>
+<Instance name="Wheels 75 Spike-2" uid="Wheels 75 Spike-2" entityUid="Wheels 75 Spike*:*Default">
+<Transform>
+<Rotation>-0.99419029198371511 1.089564949653691e-15 0.10763671922413315 1.0895649496533629e-15 1 0 -0.10763671922413315 0 -0.99419029198371511</Rotation>
+<Translation>0.050511272993538435 0.0081296831453449431 -0.014185363219792912</Translation>
+</Transform>
+</Instance>
+<Instance name="8 Tooth Gear (1)-1" uid="8 Tooth Gear (1)-1" grounded="true" entityUid="8 Tooth Gear (1)*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.22542297163276143 0.001779683145345004 -0.03073880785862794</Translation>
+</Transform>
+</Instance>
+<Instance name="Wheel Hub-1" uid="Wheel Hub-1" entityUid="Wheel Hub*:*Default">
+<Transform>
+<Rotation>0.99999999999999989 0 0 0 0 -1 0 0.99999999999999989 0</Rotation>
+<Translation>-0.33521702028486439 0.024004683145344999 -0.082264893821877461</Translation>
+</Transform>
+</Instance>
+<Instance name="Wheels 75 Spike-1" uid="Wheels 75 Spike-1" entityUid="Wheels 75 Spike*:*Default">
+<Transform>
+<Rotation>0.74147299317517201 1.4125129698049313e-16 0.67098271243889096 1.4125129698048208e-16 1 -3.66604555351918e-16 -0.67098271243889096 3.6660455535191563e-16 0.74147299317517201</Rotation>
+<Translation>-0.032168603153486061 0.0017796831453450179 0.061380258324085613</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="wheel-2" uid="wheel-2" entityUid="wheel" rigid="true">
+<Transform>
+<Rotation>0.48593892295756269 -2.6550225434502226e-16 0.87399277065365011 -0.87399277065365011 1.1074431775841532e-14 0.48593892295756269 -9.8079911907017849e-15 -1 5.1494503986296492e-15</Rotation>
+<Translation>-0.079758927243307104 0.021157780107387232 -0.08958013726696723</Translation>
+</Transform>
+<Instance name="Wheels 75 Spike-2" uid="Wheels 75 Spike-2" entityUid="Wheels 75 Spike*:*Default">
+<Transform>
+<Rotation>-0.99419029198371534 1.0895649496536879e-15 0.10763671922413309 1.0895649496533676e-15 1 0 -0.10763671922413309 0 -0.99419029198371534</Rotation>
+<Translation>0.050511272993538435 0.0081296831453449431 -0.014185363219792912</Translation>
+</Transform>
+</Instance>
+<Instance name="8 Tooth Gear (1)-1" uid="8 Tooth Gear (1)-1" grounded="true" entityUid="8 Tooth Gear (1)*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.22542297163276143 0.001779683145345004 -0.030738807858627953</Translation>
+</Transform>
+</Instance>
+<Instance name="Wheel Hub-1" uid="Wheel Hub-1" entityUid="Wheel Hub*:*Default">
+<Transform>
+<Rotation>0.99999999999999989 0 0 0 0 -1 0 0.99999999999999989 0</Rotation>
+<Translation>-0.33521702028486439 0.024004683145345013 -0.082264893821877461</Translation>
+</Transform>
+</Instance>
+<Instance name="Wheels 75 Spike-1" uid="Wheels 75 Spike-1" entityUid="Wheels 75 Spike*:*Default">
+<Transform>
+<Rotation>0.74147299317517212 1.4125129698048839e-16 0.67098271243889096 1.4125129698048208e-16 1 -3.6660455535192391e-16 -0.67098271243889096 3.6660455535191248e-16 0.74147299317517212</Rotation>
+<Translation>-0.032168603153486068 0.0017796831453450318 0.061380258324085613</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="simpBase-1" uid="simpBase-1" grounded="true" entityUid="simpBase" rigid="true">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.037255973024400646 0.11409633791913684 -0.097174837299178279</Translation>
+</Transform>
+<Instance name="Standoffs - Gear Mount-7" uid="Standoffs - Gear Mount-7" entityUid="Standoffs - Gear Mount*:*Default">
+<Transform>
+<Rotation>-0.99999999999999989 6.6491950834191016e-15 0 0 9.7154506928413606e-15 1 6.6491950834191016e-15 0.99999999999999989 -9.715450692841359e-15</Rotation>
+<Translation>0.077053630475237972 -0.11226047159601252 0.022325016886867804</Translation>
+</Transform>
+</Instance>
+<Instance name="Standoffs - Gear Mount-6" uid="Standoffs - Gear Mount-6" entityUid="Standoffs - Gear Mount*:*Default">
+<Transform>
+<Rotation>0.99999999999999989 1.7924834605680008e-16 1.6653345369383851e-16 0 9.7154506928413938e-15 1 0 -0.99999999999999989 9.7604206634670966e-15</Rotation>
+<Translation>-0.045515084859293113 -0.11226047159601334 0.015975016886865895</Translation>
+</Transform>
+</Instance>
+<Instance name="Standoffs - Gear Axel Holder-4" uid="Standoffs - Gear Axel Holder-4" entityUid="Standoffs - Gear Axel Holder*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1.04744440165294e-14 1 0 -1 1.04744440165294e-14</Rotation>
+<Translation>0.16595363047523923 -0.11226047159601581 0.29410501688686524</Translation>
+</Transform>
+</Instance>
+<Instance name="Standoffs - Gear Mount-1" uid="Standoffs - Gear Mount-1" entityUid="Standoffs - Gear Mount*:*Default">
+<Transform>
+<Rotation>0.99999999999999989 1.7924834605680008e-16 1.6653345369383851e-16 0 9.7154506928413938e-15 1 0 -0.99999999999999989 9.7604206634670966e-15</Rotation>
+<Translation>-0.045515084859289845 -0.11226047159601521 0.24330501688686659</Translation>
+</Transform>
+</Instance>
+<Instance name="Large Motor Mount - Triangle-3" uid="Large Motor Mount - Triangle-3" entityUid="Large Motor Mount - Triangle*:*Default">
+<Transform>
+<Rotation>-2.3856388563860201e-14 1 6.9518221308177867e-15 -2.5398362907784819e-14 -6.9518221308183925e-15 1 1 2.3856388563860025e-14 2.5398362907784987e-14</Rotation>
+<Translation>-0.013415290554410299 -0.085552408233636412 0.28116364361162316</Translation>
+</Transform>
+</Instance>
+<Instance name="Large Motor Mount - Base-2" uid="Large Motor Mount - Base-2" entityUid="Large Motor Mount - Base*:*Default">
+<Transform>
+<Rotation>1.7208456881689926e-15 -6.9518221308178119e-15 1 -2.6430816793389622e-14 1 6.9518221308178561e-15 -1 -2.6430816793389635e-14 1.7208456881686789e-15</Rotation>
+<Translation>0.0087207728079698316 -0.10768847159601395 -0.015533609837889858</Translation>
+</Transform>
+</Instance>
+<Instance name="Large Motor Mount - Mount-1" uid="Large Motor Mount - Mount-1" entityUid="Large Motor Mount - Mount*:*Default">
+<Transform>
+<Rotation>-1 -2.3634343958935183e-14 -6.9518221308177883e-15 -6.951822130817894e-15 4.4494748747260113e-15 1 -2.3634343958935012e-14 1 -4.4494748747261753e-15</Rotation>
+<Translation>0.015769272807970261 -0.085552408233633456 0.020508953524489684</Translation>
+</Transform>
+</Instance>
+<Instance name="Large Motor Mount - Base-1" uid="Large Motor Mount - Base-1" entityUid="Large Motor Mount - Base*:*Default">
+<Transform>
+<Rotation>1.6530020402715735e-15 6.9518221308178821e-15 -1.0000000000000002 1.7464023396040177e-14 -1.0000000000000002 -6.9518221308178545e-15 -1 -1.7464023396040174e-14 -1.6530020402716966e-15</Rotation>
+<Translation>0.022817772807969969 -0.11454647159601104 -0.015533609837888374</Translation>
+</Transform>
+</Instance>
+<Instance name="Standoffs - Gear Axel Holder-2" uid="Standoffs - Gear Axel Holder-2" entityUid="Standoffs - Gear Axel Holder*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1.04744440165294e-14 1 0 -1 1.04744440165294e-14</Rotation>
+<Translation>-0.098342632896245813 -0.11226047159601293 -0.022124983113134142</Translation>
+</Transform>
+</Instance>
+<Instance name="Standoffs - Gear Axel Holder-1" uid="Standoffs - Gear Axel Holder-1" entityUid="Standoffs - Gear Axel Holder*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1.04744440165294e-14 1 0 -1 1.04744440165294e-14</Rotation>
+<Translation>-0.098342632896242593 -0.11226047159601574 0.29410501688686663</Translation>
+</Transform>
+</Instance>
+<Instance name="Standoffs - Gear Mount-5" uid="Standoffs - Gear Mount-5" entityUid="Standoffs - Gear Mount*:*Default">
+<Transform>
+<Rotation>-0.99999999999999989 6.6491950834191016e-15 0 0 9.7154506928413606e-15 1 6.6491950834191016e-15 0.99999999999999989 -9.715450692841359e-15</Rotation>
+<Translation>0.077053630475239512 -0.11226047159601031 0.24965501688686781</Translation>
+</Transform>
+</Instance>
+<Instance name="16 Tooth Gear-2" uid="16 Tooth Gear-2" entityUid="16 Tooth Gear*:*Default">
+<Transform>
+<Rotation>1 2.3263849386224969e-14 9.9920072216334317e-16 -9.99200722161967e-16 2.4972069330330351e-14 1 2.3263849386224944e-14 -1 2.4972069330330345e-14</Rotation>
+<Translation>-0.31881201290713307 -0.12213586165045789 0.0079740535244784277</Translation>
+</Transform>
+</Instance>
+<Instance name="Quarter Inch Pin-3" uid="Quarter Inch Pin-3" entityUid="Quarter Inch Pin*:*1 Inch">
+<Transform>
+<Rotation>1 0 0 0 -1.04744440165294e-14 -1 0 1 -1.04744440165294e-14</Rotation>
+<Translation>-0.063551310840816111 -0.083685471596015248 0.24013001688686636</Translation>
+</Transform>
+</Instance>
+<Instance name="Large Motor Mount - Triangle-2" uid="Large Motor Mount - Triangle-2" entityUid="Large Motor Mount - Triangle*:*Default">
+<Transform>
+<Rotation>2.3634343958935189e-14 -1 -6.9518221308182687e-15 -4.4494748747260121e-15 -6.9518221308183736e-15 1 -1 -2.3634343958935161e-14 -4.4494748747261761e-15</Rotation>
+<Translation>-0.020273290554407682 -0.08555240823363397 -0.015533609837889956</Translation>
+</Transform>
+</Instance>
+<Instance name="Large Motor Mount - Base-4" uid="Large Motor Mount - Base-4" entityUid="Large Motor Mount - Base*:*Default">
+<Transform>
+<Rotation>-1.8750466451966048e-15 -6.9518221308178853e-15 1.0000000000000002 -3.4848646370186311e-15 -1.0000000000000002 -6.9518221308178924e-15 1 -3.4848646370186429e-15 1.8750466451965827e-15</Rotation>
+<Translation>0.0087207728079697552 -0.11454647159601399 0.28116364361162244</Translation>
+</Transform>
+</Instance>
+<Instance name="Standoffs - Gear Axel Holder-5" uid="Standoffs - Gear Axel Holder-5" entityUid="Standoffs - Gear Axel Holder*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1.04744440165294e-14 1 0 -1 1.04744440165294e-14</Rotation>
+<Translation>0.11312608243828431 -0.11226047159601552 0.26616501688686606</Translation>
+</Transform>
+</Instance>
+<Instance name="Large Motor-2" uid="Large Motor-2" entityUid="Large Motor*:*Default">
+<Transform>
+<Rotation>2.3398787127856326e-14 -0.99999914138553281 -0.0013104305389830366 -5.0637189258455228e-15 -0.0013104305389830366 0.99999914138553281 -1 -2.3392131385397913e-14 -5.0943770632906989e-15</Rotation>
+<Translation>0.015769272807969394 -0.08555240823363329 0.057237353524489686</Translation>
+</Transform>
+</Instance>
+<Instance name="16 Tooth Gear-1" uid="16 Tooth Gear-1" entityUid="16 Tooth Gear*:*Default">
+<Transform>
+<Rotation>0.99999999999999989 -2.4448695978739e-14 -1.8360313269741757e-14 -1.8360313269741757e-14 -2.5519450270845366e-14 -0.99999999999999989 2.4448695978738533e-14 1 -2.5519450270845814e-14</Rotation>
+<Translation>-0.31881201290713296 -0.048968954816805188 0.25765598024923764</Translation>
+</Transform>
+</Instance>
+<Instance name="Base - Base-1" uid="Base - Base-1" grounded="true" entityUid="Base - Base*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1.04744440165294e-14 1 0 -1 1.04744440165294e-14</Rotation>
+<Translation>-0.21283072719202764 -0.12496047159601585 0.29791501688686595</Translation>
+</Transform>
+</Instance>
+<Instance name="Standoffs - Gear Axel Holder-3" uid="Standoffs - Gear Axel Holder-3" entityUid="Standoffs - Gear Axel Holder*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1.04744440165294e-14 1 0 -1 1.04744440165294e-14</Rotation>
+<Translation>0.16595363047523734 -0.1122604715960125 -0.022124983113133961</Translation>
+</Transform>
+</Instance>
+<Instance name="Large Motor Mount - Triangle-1" uid="Large Motor Mount - Triangle-1" entityUid="Large Motor Mount - Triangle*:*Default">
+<Transform>
+<Rotation>2.363434395893517e-14 -1 -6.9518221308177875e-15 -4.4494748747260121e-15 -6.9518221308178924e-15 1 -1 -2.3634343958935142e-14 -4.4494748747261761e-15</Rotation>
+<Translation>0.044953836170350023 -0.085552408233633456 -0.015533609837888526</Translation>
+</Transform>
+</Instance>
+<Instance name="Standoffs - Gear Axel Holder-6" uid="Standoffs - Gear Axel Holder-6" entityUid="Standoffs - Gear Axel Holder*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1.04744440165294e-14 1 0 -1 1.04744440165294e-14</Rotation>
+<Translation>-0.045515084859292648 -0.11226047159601552 0.26616501688686611</Translation>
+</Transform>
+</Instance>
+<Instance name="Large Motor Mount - Mount-2" uid="Large Motor Mount - Mount-2" entityUid="Large Motor Mount - Mount*:*Default">
+<Transform>
+<Rotation>1 2.3856388563860214e-14 6.9518221308177883e-15 -6.9518221308183941e-15 2.5398362907784819e-14 1 2.3856388563859895e-14 -1 2.539836290778498e-14</Rotation>
+<Translation>0.015769272807969463 -0.085552408233635649 0.24512108024924492</Translation>
+</Transform>
+</Instance>
+<Instance name="Wheel Hub-2" uid="Wheel Hub-2" entityUid="Wheel Hub*:*Default">
+<Transform>
+<Rotation>-1.0000000000000002 -8.4376949871518886e-15 -2.2981736974093874e-14 8.4376949871505034e-15 -1.0000000000000002 -2.5050490205470509e-14 -2.298173697409366e-14 -2.5050490205470682e-14 1</Rotation>
+<Translation>0.34320823990203042 0.0017648159145918496 -0.014250946475503165</Translation>
+</Transform>
+</Instance>
+<Instance name="Large Motor Mount - Triangle-4" uid="Large Motor Mount - Triangle-4" entityUid="Large Motor Mount - Triangle*:*Default">
+<Transform>
+<Rotation>-2.385638856386022e-14 1 6.9518221308182679e-15 -2.5398362907784819e-14 -6.9518221308188737e-15 1 1 2.3856388563860044e-14 2.5398362907784987e-14</Rotation>
+<Translation>0.051811836170347403 -0.085552408233636912 0.2811636436116246</Translation>
+</Transform>
+</Instance>
+<Instance name="Ball Bearing-1" uid="Ball Bearing-1" entityUid="Ball Bearing*:*Default">
+<Transform>
+<Rotation>6.6491950834191032e-15 -9.7154506928413622e-15 -1 9.7154506928413622e-15 1 -9.7154506928412975e-15 1 -9.7154506928412975e-15 6.6491950834191978e-15</Rotation>
+<Translation>0.14791740449371563 -0.083685471596011141 0.24655101688686704</Translation>
+</Transform>
+</Instance>
+<Instance name="Standoffs - Gear Axel Holder-7" uid="Standoffs - Gear Axel Holder-7" entityUid="Standoffs - Gear Axel Holder*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1.04744440165294e-14 1 0 -1 1.04744440165294e-14</Rotation>
+<Translation>-0.045515084859292648 -0.1122604715960128 0.005815016886866059</Translation>
+</Transform>
+</Instance>
+<Instance name="Wheel Hub-1" uid="Wheel Hub-1" entityUid="Wheel Hub*:*Default">
+<Transform>
+<Rotation>-1.0000000000000002 0 2.4377075663412185e-14 0 1.0000000000000002 2.5638576559319402e-14 -2.4377075663412176e-14 2.5638576559319402e-14 -1</Rotation>
+<Translation>0.34320823990202803 -0.17286963238186437 0.27988098024924879</Translation>
+</Transform>
+</Instance>
+<Instance name="Ball Bearing-2" uid="Ball Bearing-2" entityUid="Ball Bearing*:*Default">
+<Transform>
+<Rotation>-1.7924834605680008e-16 0.38304900806323389 0.92372802134706977 -9.7154506928413906e-15 -0.92372802134706977 0.383049008063234 1 -8.9057731438393661e-15 3.8870704708129387e-15</Rotation>
+<Translation>-0.11637885887776638 -0.083685471596015318 0.24655101688686687</Translation>
+</Transform>
+</Instance>
+<Instance name="Standoffs - Gear Axel Holder-8" uid="Standoffs - Gear Axel Holder-8" entityUid="Standoffs - Gear Axel Holder*:*Default">
+<Transform>
+<Rotation>-1 0 0 0 -1.0658141036401498e-14 1 0 1 1.0658141036401498e-14</Rotation>
+<Translation>0.077053630475237445 -0.11226047159601274 -0.00053498311313392166</Translation>
+</Transform>
+</Instance>
+<Instance name="Large Motor-1" uid="Large Motor-1" entityUid="Large Motor*:*Default">
+<Transform>
+<Rotation>0 0.99999999999999989 -9.4368957093138306e-16 -1.0474444016529454e-14 9.4368957093138306e-16 0.99999999999999989 1 0 1.0474444016529454e-14</Rotation>
+<Translation>0.015769272807975326 -0.085552408233631624 0.20839268024924582</Translation>
+</Transform>
+</Instance>
+<Instance name="Large Motor Mount - Base-3" uid="Large Motor Mount - Base-3" entityUid="Large Motor Mount - Base*:*Default">
+<Transform>
+<Rotation>-1.9428902930940239e-15 6.9518221308178056e-15 -1 -4.7379704826448429e-14 1 6.9518221308178971e-15 1 4.7379704826448441e-14 -1.9428902930935644e-15</Rotation>
+<Translation>0.022817772807969892 -0.1076884715960169 0.28116364361162399</Translation>
+</Transform>
+</Instance>
+<Instance name="Ball Bearing-4" uid="Ball Bearing-4" entityUid="Ball Bearing*:*Default">
+<Transform>
+<Rotation>1.7924834605680013e-16 -9.7154506928413953e-15 1 9.7154506928413953e-15 1 9.7154506928413938e-15 -1 9.7154506928413938e-15 1.7924834605689452e-16</Rotation>
+<Translation>-0.11637885887776964 -0.083685471596013458 0.019221016886866144</Translation>
+</Transform>
+</Instance>
+<Instance name="Quarter Inch Pin-1" uid="Quarter Inch Pin-1" entityUid="Quarter Inch Pin*:*2 Inch Pin">
+<Transform>
+<Rotation>1 0 0 0 -1.04744440165294e-14 -1 0 1 -1.04744440165294e-14</Rotation>
+<Translation>0.14791740449371577 -0.083685471596015221 0.24267001688686551</Translation>
+</Transform>
+</Instance>
+<Instance name="Quarter Inch Pin-2" uid="Quarter Inch Pin-2" entityUid="Quarter Inch Pin*:*1 Inch">
+<Transform>
+<Rotation>1 0 0 0 1.0658141036401498e-14 1 0 -1 1.0658141036401498e-14</Rotation>
+<Translation>0.095089856456760935 -0.083685471596013028 0.025500016886866372</Translation>
+</Transform>
+</Instance>
+<Instance name="Ball Bearing-3" uid="Ball Bearing-3" entityUid="Ball Bearing*:*Default">
+<Transform>
+<Rotation>6.6491950834191032e-15 -9.7154506928413622e-15 -1 9.7154506928413622e-15 1 -9.7154506928412975e-15 1 -9.7154506928412975e-15 6.6491950834191978e-15</Rotation>
+<Translation>0.14791740449371413 -0.083685471596013347 0.019221016886867073</Translation>
+</Transform>
+</Instance>
+<Instance name="Quarter Inch Pin-7" uid="Quarter Inch Pin-7" entityUid="Quarter Inch Pin*:*2 Inch Pin">
+<Transform>
+<Rotation>1 0 0 0 -1.04744440165294e-14 -1 0 1 -1.04744440165294e-14</Rotation>
+<Translation>-0.11637885887776604 -0.083685471596015193 0.2426700168868669</Translation>
+</Transform>
+</Instance>
+<Instance name="Quarter Inch Pin-8" uid="Quarter Inch Pin-8" entityUid="Quarter Inch Pin*:*2 Inch Pin">
+<Transform>
+<Rotation>-0.39906687995876006 0 -0.91692182072409023 0.91692182072409023 1.0474444016529383e-14 -0.39906687995876006 9.6042462787086746e-15 -1 -4.1800036929790837e-15</Rotation>
+<Translation>0.14791740449371388 -0.083685471596012889 0.02296001688686633</Translation>
+</Transform>
+</Instance>
+<Instance name="Quarter Inch Pin-6" uid="Quarter Inch Pin-6" entityUid="Quarter Inch Pin*:*2 Inch Pin">
+<Transform>
+<Rotation>1 0 0 0 -1.04744440165294e-14 -1 0 1 -1.04744440165294e-14</Rotation>
+<Translation>-0.11637885887776926 -0.083685471596012861 -0.029109983113133842</Translation>
+</Transform>
+</Instance>
+<Instance name="Quarter Inch Pin-5" uid="Quarter Inch Pin-5" entityUid="Quarter Inch Pin*:*1 Inch">
+<Transform>
+<Rotation>-0.92372802134706589 0 0.38304900806324349 -0.38304900806324338 1.0474444016529395e-14 -0.923728021347066 -4.0122253905455614e-15 -1 -9.6755374460993162e-15</Rotation>
+<Translation>-0.063551310840816055 -0.083685471596013014 0.025500016886866345</Translation>
+</Transform>
+</Instance>
+<Instance name="Quarter Inch Pin-4" uid="Quarter Inch Pin-4" entityUid="Quarter Inch Pin*:*1 Inch">
+<Transform>
+<Rotation>1 0 0 0 -1.04744440165294e-14 -1 0 1 -1.04744440165294e-14</Rotation>
+<Translation>0.095089856456760824 -0.083685471596015248 0.24013001688686636</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="ablation tool.STEP-1" uid="ablation tool.STEP-1" entityUid="ablation tool.STEP" rigid="true">
+<Transform>
+<Rotation>0 -0.74090141028276491 -0.6716138028964338 1 2.2204460492503131e-16 0 1.1102230246251565e-16 -0.6716138028964338 0.74090141028276479</Rotation>
+<Translation>0.41648638150890316 0.38136520632312348 -0.019022157049915521</Translation>
+</Transform>
+<Instance name="90190A148_PHILLIPS ROUNDED HEAD SCREWS FOR SHEET METAL_90190A148.STEP-4" uid="90190A148_PHILLIPS ROUNDED HEAD SCREWS FOR SHEET METAL_90190A148.STEP-4" grounded="true" entityUid="90190A148_PHILLIPS ROUNDED HEAD SCREWS FOR SHEET METAL_90190A148.STEP*:*Default">
+<Transform>
+<Rotation>-0.83716910433122205 -0.54694413860398872 0 3.9968028886505635e-15 -6.1617377866696212e-15 -0.99999999999999978 0.54694413860398883 -0.83716910433122194 7.3444444170929701e-15</Rotation>
+<Translation>0.0095250000000000057 -0.036499800000000027 0</Translation>
+</Transform>
+</Instance>
+<Instance name="Ablation Patch Holder_Ablation Patch Holder.STEP-5" uid="Ablation Patch Holder_Ablation Patch Holder.STEP-5" grounded="true" entityUid="Ablation Patch Holder_Ablation Patch Holder.STEP*:*Default">
+<Transform>
+<Rotation>-2.9115512491444542e-15 0 1 0.86602540378444326 -0.49999999999999206 2.5115397336647407e-15 0.49999999999999212 0.86602540378444315 1.4729880743535711e-15</Rotation>
+<Translation>0 -0.017462499999999992 0.030245937227172004</Translation>
+</Transform>
+</Instance>
+<Instance name="Ablation Patch Holder_Ablation Patch Holder.STEP-6" uid="Ablation Patch Holder_Ablation Patch Holder.STEP-6" grounded="true" entityUid="Ablation Patch Holder_Ablation Patch Holder.STEP*:*Default">
+<Transform>
+<Rotation>-2.9385631747908592e-15 0 1 0.86602540378443282 0.50000000000000977 2.5980762113532985e-15 -0.50000000000000966 0.86602540378443282 -1.5000000000000291e-15</Rotation>
+<Translation>0 0.017462499999999992 0.030245937227170949</Translation>
+</Transform>
+</Instance>
+<Instance name="90190A148_PHILLIPS ROUNDED HEAD SCREWS FOR SHEET METAL_90190A148.STEP-1" uid="90190A148_PHILLIPS ROUNDED HEAD SCREWS FOR SHEET METAL_90190A148.STEP-1" grounded="true" entityUid="90190A148_PHILLIPS ROUNDED HEAD SCREWS FOR SHEET METAL_90190A148.STEP*:*Default">
+<Transform>
+<Rotation>-0.83716910433122205 -0.54694413860398883 0 -1.1102230246251565e-16 0 0.99999999999999989 -0.54694413860398883 0.83716910433122205 -1.071952183428593e-16</Rotation>
+<Translation>0.0095250000000000057 0.036499799999999971 0</Translation>
+</Transform>
+</Instance>
+<Instance name="Ablation Patch Holder_Ablation Patch Holder.STEP-3" uid="Ablation Patch Holder_Ablation Patch Holder.STEP-3" grounded="true" entityUid="Ablation Patch Holder_Ablation Patch Holder.STEP*:*Default">
+<Transform>
+<Rotation>-3.0614368252091417e-15 0 1 -0.86602540378443627 -0.500000000000004 -2.5980762113533095e-15 0.500000000000004 -0.86602540378443615 1.5000000000000129e-15</Rotation>
+<Translation>0 -0.017462500000000047 -0.030245937227171005</Translation>
+</Transform>
+</Instance>
+<Instance name="90190A148_PHILLIPS ROUNDED HEAD SCREWS FOR SHEET METAL_90190A148.STEP-2" uid="90190A148_PHILLIPS ROUNDED HEAD SCREWS FOR SHEET METAL_90190A148.STEP-2" grounded="true" entityUid="90190A148_PHILLIPS ROUNDED HEAD SCREWS FOR SHEET METAL_90190A148.STEP*:*Default">
+<Transform>
+<Rotation>-0.83716910433122216 -0.54694413860398861 -6.106226635438361e-16 -0.47366751848205196 0.72500971161430416 0.49999999999999833 -0.27347206930199297 0.41858455216561002 -0.86602540378443948</Rotation>
+<Translation>0.0095250000000000057 0.018249899999999986 -0.031609754033050996</Translation>
+</Transform>
+</Instance>
+<Instance name="90190A148_PHILLIPS ROUNDED HEAD SCREWS FOR SHEET METAL_90190A148.STEP-3" uid="90190A148_PHILLIPS ROUNDED HEAD SCREWS FOR SHEET METAL_90190A148.STEP-3" grounded="true" entityUid="90190A148_PHILLIPS ROUNDED HEAD SCREWS FOR SHEET METAL_90190A148.STEP*:*Default">
+<Transform>
+<Rotation>-0.83716910433122238 -0.54694413860398849 5.4396141088461798e-16 -0.47366751848205013 0.7250097116143015 -0.500000000000004 0.27347206930199597 -0.41858455216561463 -0.86602540378443627</Rotation>
+<Translation>0.0095250000000000057 -0.018249900000000041 -0.031609754033051052</Translation>
+</Transform>
+</Instance>
+<Instance name="Ablation Patch Holder_Ablation Patch Holder.STEP-4" uid="Ablation Patch Holder_Ablation Patch Holder.STEP-4" grounded="true" entityUid="Ablation Patch Holder_Ablation Patch Holder.STEP*:*Default">
+<Transform>
+<Rotation>-2.9729880743535945e-15 0 1 7.0499162063697472e-15 -1 0 1 7.0499162063697464e-15 2.9729880743535953e-15</Rotation>
+<Translation>0 -0.034925000000000039 0</Translation>
+</Transform>
+</Instance>
+<Instance name="Ablation Tool Foam_Ablation Tool Foam.STEP-2" uid="Ablation Tool Foam_Ablation Tool Foam.STEP-2" grounded="true" entityUid="Ablation Tool Foam_Ablation Tool Foam.STEP*:*Default">
+<Transform>
+<Rotation>3.0884487508555474e-15 0 -1 0.86602540378443815 0.50000000000000089 2.6846126890419047e-15 0.50000000000000089 -0.86602540378443826 1.5270119256464092e-15</Rotation>
+<Translation>0.0095250000000000057 0.018237364853601945 -0.031616991203198996</Translation>
+</Transform>
+</Instance>
+<Instance name="ablationtoolholder.STEP-1" uid="ablationtoolholder.STEP-1" grounded="true" entityUid="ablationtoolholder.STEP*:*Default">
+<Transform>
+<Rotation>0 0 1 -0.67161380289643335 -0.74090141028276535 0 0.74090141028276524 -0.67161380289643335 0</Rotation>
+<Translation>0.027431999999999956 0.084248740787608939 0.076369968263401977</Translation>
+</Transform>
+</Instance>
+<Instance name="90190A148_PHILLIPS ROUNDED HEAD SCREWS FOR SHEET METAL_90190A148.STEP-5" uid="90190A148_PHILLIPS ROUNDED HEAD SCREWS FOR SHEET METAL_90190A148.STEP-5" grounded="true" entityUid="90190A148_PHILLIPS ROUNDED HEAD SCREWS FOR SHEET METAL_90190A148.STEP*:*Default">
+<Transform>
+<Rotation>-0.83716910433122216 -0.54694413860398883 -5.0559779830287785e-16 0.47366751848205402 -0.72500971161430694 -0.49999999999999251 0.27347206930198986 -0.41858455216560497 0.86602540378444293</Rotation>
+<Translation>0.0095250000000000057 -0.018249900000000041 0.031609754033050941</Translation>
+</Transform>
+</Instance>
+<Instance name="Ablation Tool Foam_Ablation Tool Foam.STEP-4" uid="Ablation Tool Foam_Ablation Tool Foam.STEP-4" grounded="true" entityUid="Ablation Tool Foam_Ablation Tool Foam.STEP*:*Default">
+<Transform>
+<Rotation>2.9729880743535945e-15 0 -1 -3.0531133177191817e-15 -1 0 -1 3.0531133177191813e-15 -2.9729880743535949e-15</Rotation>
+<Translation>0.0095250000000000057 -0.036499800000000027 1.4474340294945431e-05</Translation>
+</Transform>
+</Instance>
+<Instance name="Ablation Tool Foam_Ablation Tool Foam.STEP-5" uid="Ablation Tool Foam_Ablation Tool Foam.STEP-5" grounded="true" entityUid="Ablation Tool Foam_Ablation Tool Foam.STEP*:*Default">
+<Transform>
+<Rotation>2.9115512491444538e-15 0 -1 -0.86602540378444126 -0.49999999999999512 -2.5980762113533249e-15 -0.49999999999999506 0.86602540378444126 -1.4999999999999861e-15</Rotation>
+<Translation>0.0095250000000000057 -0.018237364853602001 0.031616991203198941</Translation>
+</Transform>
+</Instance>
+<Instance name="Ablation Tool Foam_Ablation Tool Foam.STEP-1" uid="Ablation Tool Foam_Ablation Tool Foam.STEP-1" grounded="true" entityUid="Ablation Tool Foam_Ablation Tool Foam.STEP*:*Default">
+<Transform>
+<Rotation>3.0270119256464067e-15 0 -1 -3.9412917374193073e-15 1 0 1 3.9412917374193073e-15 3.0270119256464071e-15</Rotation>
+<Translation>0.0095250000000000057 0.036499799999999971 -1.4474340295000943e-05</Translation>
+</Transform>
+</Instance>
+<Instance name="90190A148_PHILLIPS ROUNDED HEAD SCREWS FOR SHEET METAL_90190A148.STEP-6" uid="90190A148_PHILLIPS ROUNDED HEAD SCREWS FOR SHEET METAL_90190A148.STEP-6" grounded="true" entityUid="90190A148_PHILLIPS ROUNDED HEAD SCREWS FOR SHEET METAL_90190A148.STEP*:*Default">
+<Transform>
+<Rotation>-0.83716910433122227 -0.54694413860398872 -4.8845025965336094e-16 0.47366751848204791 -0.72500971161429895 0.50000000000000966 -0.27347206930200002 0.41858455216561891 0.86602540378443293</Rotation>
+<Translation>0.0095250000000000057 0.018249900000000041 0.031609754033050996</Translation>
+</Transform>
+</Instance>
+<Instance name="Ablation Tool Foam_Ablation Tool Foam.STEP-3" uid="Ablation Tool Foam_Ablation Tool Foam.STEP-3" grounded="true" entityUid="Ablation Tool Foam_Ablation Tool Foam.STEP*:*Default">
+<Transform>
+<Rotation>3.0614368252091417e-15 0 -1 0.86602540378443793 -0.500000000000001 2.5980762113533143e-15 -0.50000000000000089 -0.86602540378443793 -1.5000000000000031e-15</Rotation>
+<Translation>0.0095250000000000057 -0.018262435146398026 -0.031602516862903995</Translation>
+</Transform>
+</Instance>
+<Instance name="Ablation Tool Foam_Ablation Tool Foam.STEP-6" uid="Ablation Tool Foam_Ablation Tool Foam.STEP-6" grounded="true" entityUid="Ablation Tool Foam_Ablation Tool Foam.STEP*:*Default">
+<Transform>
+<Rotation>2.9385631747908584e-15 0 -1 -0.8660254037844346 0.50000000000000666 -2.5980762113533028e-15 0.50000000000000666 0.8660254037844346 1.5000000000000198e-15</Rotation>
+<Translation>0.0095250000000000057 0.018262435146397971 0.03160251686290394</Translation>
+</Transform>
+</Instance>
+<Instance name="Ablation Tool Disk_Ablation Tool Disk.STEP-1" uid="Ablation Tool Disk_Ablation Tool Disk.STEP-1" grounded="true" entityUid="Ablation Tool Disk_Ablation Tool Disk.STEP*:*Default">
+<Transform>
+<Rotation>1 0 0 0 -0.92627693157967683 -0.37684352989448905 0 0.37684352989448883 -0.92627693157967672</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="Ablation Patch Holder_Ablation Patch Holder.STEP-1" uid="Ablation Patch Holder_Ablation Patch Holder.STEP-1" grounded="true" entityUid="Ablation Patch Holder_Ablation Patch Holder.STEP*:*Default">
+<Transform>
+<Rotation>-3.0270119256464067e-15 0 1 -1.110223024625157e-16 1 0 -1 -1.1102230246251583e-16 -3.0270119256464067e-15</Rotation>
+<Translation>0 0.034924999999999984 0</Translation>
+</Transform>
+</Instance>
+<Instance name="Ablation Patch Holder_Ablation Patch Holder.STEP-2" uid="Ablation Patch Holder_Ablation Patch Holder.STEP-2" grounded="true" entityUid="Ablation Patch Holder_Ablation Patch Holder.STEP*:*Default">
+<Transform>
+<Rotation>-3.0884487508555466e-15 0 1 -0.86602540378443982 0.49999999999999772 -2.5980762113533186e-15 -0.49999999999999772 -0.86602540378443971 -1.4999999999999932e-15</Rotation>
+<Translation>0 0.017462499999999936 -0.030245937227172059</Translation>
+</Transform>
+</Instance>
+</Instance>
+</InstanceTree>
+<Constraints>
+<Coincident name="Coincident1">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>simpBase-1</Uid>
+<Uid>Quarter Inch Pin-7</Uid>
+</InstancePath>
+<Position>0 0.052069999999999977 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>wheel-1</Uid>
+<Uid>Wheels 75 Spike-2</Uid>
+</InstancePath>
+<Position>0.055880000000000027 0.012699999999999989 -0.025400000000000006</Position>
+<Axis>-5.4636959873285146e-16 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident4">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>simpBase-1</Uid>
+<Uid>Standoffs - Gear Axel Holder-6</Uid>
+</InstancePath>
+<Position>-0.044450000000000003 0.0063499999999999668 0.0206375</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>wheel-1</Uid>
+<Uid>8 Tooth Gear (1)-1</Uid>
+</InstancePath>
+<Position>0.15594567229362702 0 0.0069467561444876607</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident5">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>simpBase-1</Uid>
+<Uid>Quarter Inch Pin-6</Uid>
+</InstancePath>
+<Position>0 0.052069999999999977 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>wheel-2</Uid>
+<Uid>Wheels 75 Spike-1</Uid>
+</InstancePath>
+<Position>0.055880000000000013 0.019050000000000011 -0.02540000000000002</Position>
+<Axis>-5.4636959873284988e-16 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident6">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>simpBase-1</Uid>
+<Uid>Standoffs - Gear Axel Holder-7</Uid>
+</InstancePath>
+<Position>-0.044450000000000003 0 0.0206375</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>wheel-2</Uid>
+<Uid>8 Tooth Gear (1)-1</Uid>
+</InstancePath>
+<Position>0.15594567229362699 0 0.0069467561444876702</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric2">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>simpBase-1</Uid>
+<Uid>Quarter Inch Pin-1</Uid>
+</InstancePath>
+<Position>0 0.052069999999999977 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>wheel-3</Uid>
+<Uid>Wheels 75 Spike-2</Uid>
+</InstancePath>
+<Position>0.055880000000000041 0.019050000000000011 -0.025400000000000048</Position>
+<Axis>-5.4636959873285146e-16 -1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident8">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>simpBase-1</Uid>
+<Uid>Standoffs - Gear Axel Holder-5</Uid>
+</InstancePath>
+<Position>-0.044450000000000003 0.0063499999999999668 0.0206375</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>wheel-3</Uid>
+<Uid>8 Tooth Gear (1)-1</Uid>
+</InstancePath>
+<Position>0.15594567229362705 0 0.0069467561444876702</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident9">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>simpBase-1</Uid>
+<Uid>Quarter Inch Pin-8</Uid>
+</InstancePath>
+<Position>0 0.052069999999999964 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>wheel-4</Uid>
+<Uid>Wheel Hub-1</Uid>
+</InstancePath>
+<Position>0.32743896709405951 0.08731722414822779 0.0095249999999999918</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident12">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>simpBase-1</Uid>
+<Uid>Standoffs - Gear Axel Holder-8</Uid>
+</InstancePath>
+<Position>-0.04444999999999999 0.0063499999999999945 0.020637499999999996</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>wheel-4</Uid>
+<Uid>8 Tooth Gear (1)-1</Uid>
+</InstancePath>
+<Position>0.15594567229362699 0 0.0069467561444876841</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident17">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>simpBase-1</Uid>
+<Uid>Base - Base-1</Uid>
+</InstancePath>
+<Position>0.2286 0.1651 0.012699999999999999</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>upperbit.STEP-1</Uid>
+<Uid>Rack and Pinion Spine.STEP-1</Uid>
+</InstancePath>
+<Position>-0.024765000000000002 -0.0063500000000000223 0.27939999999999998</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident18">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>simpBase-1</Uid>
+<Uid>Base - Base-1</Uid>
+</InstancePath>
+<Position>0.45720000000000005 0.1651 0.012699999999999999</Position>
+<Axis>1 1.681137226870315e-16 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>upperbit.STEP-1</Uid>
+<Uid>Rack and Pinion Spine.STEP-1</Uid>
+</InstancePath>
+<Position>-0.024765000000000002 0 0.13970000000000002</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident19">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>simpBase-1</Uid>
+<Uid>Large Motor-1</Uid>
+</InstancePath>
+<Position>-0.057149999999999992 0 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>upperbit.STEP-1</Uid>
+<Uid>Rack and Pinion Spine.STEP-1</Uid>
+</InstancePath>
+<Position>0 -0.0063500000000000223 0.13970000000000002</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric3">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>upperbit.STEP-1</Uid>
+<Uid>Surgical Tool Mount.STEP-1</Uid>
+</InstancePath>
+<Position>0 -0.050800000000000012 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>ablation tool.STEP-1</Uid>
+<Uid>ablationtoolholder.STEP-1</Uid>
+</InstancePath>
+<Position>0 0.127 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Parallel name="Parallel2">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>upperbit.STEP-1</Uid>
+<Uid>Rack.STEP-1</Uid>
+</InstancePath>
+<Position>0 -0.0063500000000000223 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>ablation tool.STEP-1</Uid>
+<Uid>Ablation Tool Disk_Ablation Tool Disk.STEP-1</Uid>
+</InstancePath>
+<Position>0.019050000000000011 0 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Parallel>
+<Coincident name="Coincident21">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>upperbit.STEP-1</Uid>
+<Uid>Rack.STEP-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>ablation tool.STEP-1</Uid>
+<Uid>ablationtoolholder.STEP-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+</Constraints>
+</RootAssembly>
+<Assemblies>
+<Assembly name="upperbit.STEP" uid="upperbit.STEP" version="103">
+<ModelUnits mass="kilogram" length="inch"/>
+<AssemblyFile name="upperbit.STEP.SLDASM" type="SolidWorks Assembly"/>
+</Assembly>
+<Assembly name="wheel" uid="wheel" version="114">
+<ModelUnits mass="kilogram" length="inch"/>
+<AssemblyFile name="wheel.SLDASM" type="SolidWorks Assembly"/>
+</Assembly>
+<Assembly name="simpBase" uid="simpBase" version="8069">
+<ModelUnits mass="kilogram" length="inch"/>
+<AssemblyFile name="simpBase.SLDASM" type="SolidWorks Assembly"/>
+</Assembly>
+<Assembly name="ablation tool.STEP" uid="ablation tool.STEP" version="103">
+<ModelUnits mass="kilogram" length="inch"/>
+<AssemblyFile name="ablation tool.STEP.SLDASM" type="SolidWorks Assembly"/>
+</Assembly>
+</Assemblies>
+<Parts>
+<Part name="10 Tooth Gear.STEP" uid="10 Tooth Gear.STEP*:*Default" version="102">
+<ModelUnits mass="kilogram" length="inch"/>
+<PartFile name="10 Tooth Gear.STEP.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.023232625675583519</Mass>
+<CenterOfMass>0.0031749999999999994 0 0</CenterOfMass>
+<Inertia>1.634420875496174e-05 8.2501708398811896e-06 8.2501708398811709e-06 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="10 Tooth Gear.STEP_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="16 Tooth Gear" uid="16 Tooth Gear*:*Default" version="135">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="16 Tooth Gear.sldprt" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0</Mass>
+<CenterOfMass>0 0 0</CenterOfMass>
+<Inertia>0 0 0 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="16 Tooth Gear_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="1" g="0.90980392156862744" b="0.67450980392156867" a="1"/>
+<Diffuse r="0.79000000000000004" g="0.71874509803921571" b="0.53286274509803933" a="1"/>
+<Specular r="0.88" g="0.80062745098039212" b="0.59356862745098049" a="1"/>
+<Emissive r="0.20999999999999999" g="0.19105882352941175" b="0.1416470588235294" a="1"/>
+<Shininess>0.20999999999999999</Shininess>
+</VisualProperties>
+</Part>
+<Part name="4-arm_servo_horn (1).STEP" uid="4-arm_servo_horn (1).STEP*:*Default" version="102">
+<ModelUnits mass="kilogram" length="inch"/>
+<PartFile name="4-arm_servo_horn (1).STEP.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0010331518268053002</Mass>
+<CenterOfMass>0 0.00072681955202102738 0</CenterOfMass>
+<Inertia>6.3359042392111561e-08 1.2473330266745476e-07 6.3359042392111614e-08 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="4-arm_servo_horn (1).STEP_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="6-arm_servo_horn.STEP" uid="6-arm_servo_horn.STEP*:*Default" version="102">
+<ModelUnits mass="kilogram" length="inch"/>
+<PartFile name="6-arm_servo_horn.STEP.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0009184248679255044</Mass>
+<CenterOfMass>0 0.00069386886692368826 0</CenterOfMass>
+<Inertia>3.9232474168494066e-08 7.6573179493937768e-08 3.9232474168494152e-08 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="6-arm_servo_horn.STEP_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="8 Tooth Gear (1)" uid="8 Tooth Gear (1)*:*Default" version="135">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="8 Tooth Gear (1).sldprt" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0</Mass>
+<CenterOfMass>0 0 0</CenterOfMass>
+<Inertia>0 0 0 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="8 Tooth Gear (1)_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="1" g="0.90980392156862744" b="0.67450980392156867" a="1"/>
+<Diffuse r="0.79000000000000004" g="0.71874509803921571" b="0.53286274509803933" a="1"/>
+<Specular r="0.88" g="0.80062745098039212" b="0.59356862745098049" a="1"/>
+<Emissive r="0.20999999999999999" g="0.19105882352941175" b="0.1416470588235294" a="1"/>
+<Shininess>0.20999999999999999</Shininess>
+</VisualProperties>
+</Part>
+<Part name="90190A148_PHILLIPS ROUNDED HEAD SCREWS FOR SHEET METAL_90190A148.STEP" uid="90190A148_PHILLIPS ROUNDED HEAD SCREWS FOR SHEET METAL_90190A148.STEP*:*Default" version="102">
+<ModelUnits mass="kilogram" length="inch"/>
+<PartFile name="90190A148_PHILLIPS ROUNDED HEAD SCREWS FOR SHEET METAL_90190A148.STEP.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.00016879478832550592</Mass>
+<CenterOfMass>6.9037254907593457e-11 4.1191683494324013e-13 -0.0032572587063892816</CenterOfMass>
+<Inertia>3.0606145265667798e-09 3.0606286400804302e-09 5.0248286791825324e-10 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="90190A148_PHILLIPS ROUNDED HEAD SCREWS FOR SHEET METAL_90190A148.STEP_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Ablation Patch Holder_Ablation Patch Holder.STEP" uid="Ablation Patch Holder_Ablation Patch Holder.STEP*:*Default" version="102">
+<ModelUnits mass="kilogram" length="inch"/>
+<PartFile name="Ablation Patch Holder_Ablation Patch Holder.STEP.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0013874077965686392</Mass>
+<CenterOfMass>0 0.0025923100836702374 0.0095249999999999467</CenterOfMass>
+<Inertia>5.2746293420084804e-08 2.1346767889638195e-07 1.8125178406093073e-07 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Ablation Patch Holder_Ablation Patch Holder.STEP_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Ablation Tool Disk_Ablation Tool Disk.STEP" uid="Ablation Tool Disk_Ablation Tool Disk.STEP*:*Default" version="102">
+<ModelUnits mass="kilogram" length="inch"/>
+<PartFile name="Ablation Tool Disk_Ablation Tool Disk.STEP.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.072395831076054976</Mass>
+<CenterOfMass>0.0095250000000000022 0 0</CenterOfMass>
+<Inertia>4.4517508703104449e-05 2.4448140025475397e-05 2.4448140025475393e-05 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Ablation Tool Disk_Ablation Tool Disk.STEP_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Ablation Tool Foam_Ablation Tool Foam.STEP" uid="Ablation Tool Foam_Ablation Tool Foam.STEP*:*Default" version="102">
+<ModelUnits mass="kilogram" length="inch"/>
+<PartFile name="Ablation Tool Foam_Ablation Tool Foam.STEP.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0024484578046875005</Mass>
+<CenterOfMass>0 0.0023812500000000001 0</CenterOfMass>
+<Inertia>7.8673827051642158e-08 2.2265207263634679e-07 1.5323398994372136e-07 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Ablation Tool Foam_Ablation Tool Foam.STEP_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Acrylic Servo Mount.STEP" uid="Acrylic Servo Mount.STEP*:*Default" version="102">
+<ModelUnits mass="kilogram" length="inch"/>
+<PartFile name="Acrylic Servo Mount.STEP.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.025897313581394511</Mass>
+<CenterOfMass>-0.0010323132382445937 -0.0055153119411726799 0.25549366647637567</CenterOfMass>
+<Inertia>1.0411844934670599e-05 0.00013981418199485808 0.00014500894181243798 1.2493659998150798e-06 -5.0962513862060578e-07 -5.9709921883629044e-07</Inertia>
+</MassProperties>
+<GeometryFile name="Acrylic Servo Mount.STEP_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="BEST_HingePin_Bottom.STEP" uid="BEST_HingePin_Bottom.STEP*:*Default" version="102">
+<ModelUnits mass="kilogram" length="inch"/>
+<PartFile name="BEST_HingePin_Bottom.STEP.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.00027188656559673979</Mass>
+<CenterOfMass>0.015875 0 0</CenterOfMass>
+<Inertia>3.7055433619507948e-10 2.3025164754086151e-08 2.3025164754086151e-08 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="BEST_HingePin_Bottom.STEP_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="BEST_HingePin_Top.STEP" uid="BEST_HingePin_Top.STEP*:*Default" version="102">
+<ModelUnits mass="kilogram" length="inch"/>
+<PartFile name="BEST_HingePin_Top.STEP.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0002891850746563819</Mass>
+<CenterOfMass>0.048606618481278022 -3.9182314170255767e-11 9.0084730223828521e-13</CenterOfMass>
+<Inertia>4.101792904094021e-10 2.7426969329076226e-08 2.7426969725068191e-08 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="BEST_HingePin_Top.STEP_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="BEST_HingePlate_Half Plate 2.STEP" uid="BEST_HingePlate_Half Plate 2.STEP*:*Default" version="102">
+<ModelUnits mass="kilogram" length="inch"/>
+<PartFile name="BEST_HingePlate_Half Plate 2.STEP.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.00083903296938638277</Mass>
+<CenterOfMass>-0.016841799237129244 -0.0014551024550445136 0.007891076306143734</CenterOfMass>
+<Inertia>3.62193825586944e-08 8.7985824312293955e-08 5.4579330721468857e-08 3.5938037819518576e-09 -6.4921309471636563e-09 1.0011566558088157e-09</Inertia>
+</MassProperties>
+<GeometryFile name="BEST_HingePlate_Half Plate 2.STEP_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="BEST_HingePlate_Half Plate 4.STEP" uid="BEST_HingePlate_Half Plate 4.STEP*:*Default" version="102">
+<ModelUnits mass="kilogram" length="inch"/>
+<PartFile name="BEST_HingePlate_Half Plate 4.STEP.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0009578022458177429</Mass>
+<CenterOfMass>-0.048352909523070697 -0.0012854304428110881 0.0069226757570250213</CenterOfMass>
+<Inertia>4.3465658231478226e-08 1.3367312358258837e-07 9.4115174652227587e-08 4.7321238051414383e-09 -4.6124166088475419e-09 9.4445451767185535e-10</Inertia>
+</MassProperties>
+<GeometryFile name="BEST_HingePlate_Half Plate 4.STEP_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Ball Bearing" uid="Ball Bearing*:*Default" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Ball Bearing.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0022264317693970188</Mass>
+<CenterOfMass>0 0 0</CenterOfMass>
+<Inertia>1.5320139466651836e-07 8.5086479245930976e-08 8.5086479245930963e-08 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Ball Bearing_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.75294117647058822" g="0.75294117647058822" b="0.75294117647058822" a="1"/>
+<Diffuse r="0.75294117647058822" g="0.75294117647058822" b="0.75294117647058822" a="1"/>
+<Specular r="0.37647058823529411" g="0.37647058823529411" b="0.37647058823529411" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Base - Base" uid="Base - Base*:*Default" version="131">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Base - Base.sldprt" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0</Mass>
+<CenterOfMass>0 0 0</CenterOfMass>
+<Inertia>0 0 0 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Base - Base_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="1" g="0.90980392156862744" b="0.67450980392156867" a="1"/>
+<Diffuse r="0.79000000000000004" g="0.71874509803921571" b="0.53286274509803933" a="1"/>
+<Specular r="0.88" g="0.80062745098039212" b="0.59356862745098049" a="1"/>
+<Emissive r="0.20999999999999999" g="0.19105882352941175" b="0.1416470588235294" a="1"/>
+<Shininess>0.20999999999999999</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Biopsy Needle Cardboard.STEP" uid="Biopsy Needle Cardboard.STEP*:*Default" version="102">
+<ModelUnits mass="kilogram" length="inch"/>
+<PartFile name="Biopsy Needle Cardboard.STEP.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.070662549079789166</Mass>
+<CenterOfMass>0.063495262788644299 -0.14590409534625476 -0.0063499952850451114</CenterOfMass>
+<Inertia>0.00036373221245476875 3.2081923841986707e-06 0.00036373769458065774 -8.6937328682717549e-12 1.1407505291520897e-12 4.0332313086909628e-08</Inertia>
+</MassProperties>
+<GeometryFile name="Biopsy Needle Cardboard.STEP_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Claw Base.STEP" uid="Claw Base.STEP*:*Default" version="102">
+<ModelUnits mass="kilogram" length="inch"/>
+<PartFile name="Claw Base.STEP.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.091931429040000026</Mass>
+<CenterOfMass>-0.016412655971479468 0.016960499108734428 0.0031749999999999999</CenterOfMass>
+<Inertia>7.0070723499274974e-05 0.0015268860707322489 0.0015963389767236131 0 0 3.1896101647609073e-05</Inertia>
+</MassProperties>
+<GeometryFile name="Claw Base.STEP_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Claw Center.STEP" uid="Claw Center.STEP*:*Default" version="102">
+<ModelUnits mass="kilogram" length="inch"/>
+<PartFile name="Claw Center.STEP.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0099544581950712484</Mass>
+<CenterOfMass>0.019207822394249209 0.082746312149223053 0.00095660769204164258</CenterOfMass>
+<Inertia>2.2493729039405803e-05 1.1697595121174806e-06 2.3640489057031147e-05 -1.1291977866817868e-07 1.6986100307187168e-08 -1.0942848080485922e-07</Inertia>
+</MassProperties>
+<GeometryFile name="Claw Center.STEP_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Claw Spacer.STEP" uid="Claw Spacer.STEP*:*Default" version="102">
+<ModelUnits mass="kilogram" length="inch"/>
+<PartFile name="Claw Spacer.STEP.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.016387064</Mass>
+<CenterOfMass>0.050799999999999991 0.0063499999999999997 0.0063499999999999997</CenterOfMass>
+<Inertia>4.4051159209333326e-07 1.4316626743033331e-05 1.4316626743033331e-05 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Claw Spacer.STEP_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Custom Arm Base.STEP" uid="Custom Arm Base.STEP*:*Default" version="102">
+<ModelUnits mass="kilogram" length="inch"/>
+<PartFile name="Custom Arm Base.STEP.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.02835158076015775</Mass>
+<CenterOfMass>-7.2966332653515606e-05 -0.0032114831663267516 0.0015874999999999982</CenterOfMass>
+<Inertia>1.5619899946717144e-06 0.00029844821421043822 0.00029996257059614317 0 0 6.6436301446313763e-09</Inertia>
+</MassProperties>
+<GeometryFile name="Custom Arm Base.STEP_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Igus Rail Official_11 inches.STEP" uid="Igus Rail Official_11 inches.STEP*:*Default" version="102">
+<ModelUnits mass="kilogram" length="inch"/>
+<PartFile name="Igus Rail Official_11 inches.STEP.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.028419791832492911</Mass>
+<CenterOfMass>0 0.13978169907161614 0.0030920892354492284</CenterOfMass>
+<Inertia>0.00018643622811571214 1.9413803270967338e-06 0.00018806469655137007 2.5437417843851171e-09 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Igus Rail Official_11 inches.STEP_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Igus Rail Official_14.3646 Inches.STEP" uid="Igus Rail Official_14.3646 Inches.STEP*:*Default" version="102">
+<ModelUnits mass="kilogram" length="inch"/>
+<PartFile name="Igus Rail Official_14.3646 Inches.STEP.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.036966498561522988</Mass>
+<CenterOfMass>0 0.18199371963986893 0.0030949568623383039</CenterOfMass>
+<Inertia>0.00041058189585406783 2.5345168549740409e-06 0.00041270822689928871 -1.037851346846367e-08 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Igus Rail Official_14.3646 Inches.STEP_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Inner Interface Custom Tool.STEP" uid="Inner Interface Custom Tool.STEP*:*Default" version="102">
+<ModelUnits mass="kilogram" length="inch"/>
+<PartFile name="Inner Interface Custom Tool.STEP.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0069240184383410142</Mass>
+<CenterOfMass>-9.2865897349654274e-10 0.02538944289752584 0.011549458150587404</CenterOfMass>
+<Inertia>3.5374990428749966e-06 3.8106503254704436e-07 3.5435440923301191e-06 -4.7919783229242574e-09 2.1551602661195644e-14 -4.5339090414881323e-13</Inertia>
+</MassProperties>
+<GeometryFile name="Inner Interface Custom Tool.STEP_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Interface Custom Tool.STEP" uid="Interface Custom Tool.STEP*:*Default" version="102">
+<ModelUnits mass="kilogram" length="inch"/>
+<PartFile name="Interface Custom Tool.STEP.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0058780540416568574</Mass>
+<CenterOfMass>3.1862165649978967e-10 -0.025400000603938534 1.0774987718350187e-09</CenterOfMass>
+<Inertia>1.5249303155793195e-06 5.1985633864532105e-07 1.5328110974344096e-06 -4.8452913909582824e-14 6.3938694207250646e-14 0</Inertia>
+</MassProperties>
+<GeometryFile name="Interface Custom Tool.STEP_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Large Motor Mount - Base" uid="Large Motor Mount - Base*:*Default" version="131">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Large Motor Mount - Base.sldprt" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0</Mass>
+<CenterOfMass>0 0 0</CenterOfMass>
+<Inertia>0 0 0 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Large Motor Mount - Base_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.49803921568627452" g="0.49803921568627452" b="0.49803921568627452" a="1"/>
+<Diffuse r="0.39345098039215687" g="0.39345098039215687" b="0.39345098039215687" a="1"/>
+<Specular r="0.43827450980392157" g="0.43827450980392157" b="0.43827450980392157" a="1"/>
+<Emissive r="0.10458823529411765" g="0.10458823529411765" b="0.10458823529411765" a="1"/>
+<Shininess>0.20999999999999999</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Large Motor Mount - Mount" uid="Large Motor Mount - Mount*:*Default" version="131">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Large Motor Mount - Mount.sldprt" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0</Mass>
+<CenterOfMass>0 0 0</CenterOfMass>
+<Inertia>0 0 0 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Large Motor Mount - Mount_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.49803921568627452" g="0.49803921568627452" b="0.49803921568627452" a="1"/>
+<Diffuse r="0.39345098039215687" g="0.39345098039215687" b="0.39345098039215687" a="1"/>
+<Specular r="0.43827450980392157" g="0.43827450980392157" b="0.43827450980392157" a="1"/>
+<Emissive r="0.10458823529411765" g="0.10458823529411765" b="0.10458823529411765" a="1"/>
+<Shininess>0.20999999999999999</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Large Motor Mount - Triangle" uid="Large Motor Mount - Triangle*:*Default" version="131">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Large Motor Mount - Triangle.sldprt" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0</Mass>
+<CenterOfMass>0 0 0</CenterOfMass>
+<Inertia>0 0 0 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Large Motor Mount - Triangle_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.49803921568627452" g="0.49803921568627452" b="0.49803921568627452" a="1"/>
+<Diffuse r="0.39345098039215687" g="0.39345098039215687" b="0.39345098039215687" a="1"/>
+<Specular r="0.43827450980392157" g="0.43827450980392157" b="0.43827450980392157" a="1"/>
+<Emissive r="0.10458823529411765" g="0.10458823529411765" b="0.10458823529411765" a="1"/>
+<Shininess>0.20999999999999999</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Large Motor" uid="Large Motor*:*Default" version="131">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Large Motor.sldprt" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0</Mass>
+<CenterOfMass>0 0 0</CenterOfMass>
+<Inertia>0 0 0 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Large Motor_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.92941176470588238" a="1"/>
+<Diffuse r="0.62580392156862741" g="0.64749019607843139" b="0.7342352941176471" a="1"/>
+<Specular r="0.69709803921568625" g="0.72125490196078434" b="0.8178823529411765" a="1"/>
+<Emissive r="0.16635294117647056" g="0.17211764705882351" b="0.19517647058823528" a="1"/>
+<Shininess>0.20999999999999999</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Left Claw Finger.STEP" uid="Left Claw Finger.STEP*:*Default" version="102">
+<ModelUnits mass="kilogram" length="inch"/>
+<PartFile name="Left Claw Finger.STEP.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0067344142151184467</Mass>
+<CenterOfMass>-0.01734593435314679 0.074086905088066299 0.00013179127791635727</CenterOfMass>
+<Inertia>1.1223233991983236e-05 4.1506796402916755e-06 1.4863768846706977e-05 6.139682013566347e-08 -1.9352743174790267e-08 4.3003816291497187e-06</Inertia>
+</MassProperties>
+<GeometryFile name="Left Claw Finger.STEP_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Quarter Inch Pin" uid="Quarter Inch Pin*:*1 Inch" version="119">
+<ModelUnits mass="kilogram" length="inch"/>
+<PartFile name="Quarter Inch Pin.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.00083711031340534634</Mass>
+<CenterOfMass>0 0.013334999999999994 0</CenterOfMass>
+<Inertia>5.086688933419846e-08 4.1907112272921674e-09 5.086688933419846e-08 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Quarter Inch Pin_1 Inch_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Quarter Inch Pin" uid="Quarter Inch Pin*:*2 Inch Pin" version="117">
+<ModelUnits mass="kilogram" length="inch"/>
+<PartFile name="Quarter Inch Pin.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0016415084364726244</Mass>
+<CenterOfMass>0 0.026034999999999996 0</CenterOfMass>
+<Inertia>3.7169676304562314e-07 8.2451291419647057e-09 3.7169676304562314e-07 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Quarter Inch Pin_2 Inch Pin_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Rack Motor Support.STEP" uid="Rack Motor Support.STEP*:*Default" version="102">
+<ModelUnits mass="kilogram" length="inch"/>
+<PartFile name="Rack Motor Support.STEP.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.02808612937954556</Mass>
+<CenterOfMass>1.4170767148530539e-05 0.00010479879366410123 0.0031749999999999999</CenterOfMass>
+<Inertia>4.7368436524428217e-06 2.3541219107055914e-05 2.8089312267514287e-05 0 0 2.0231232839535425e-09</Inertia>
+</MassProperties>
+<GeometryFile name="Rack Motor Support.STEP_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Rack and Pinion Spine.STEP" uid="Rack and Pinion Spine.STEP*:*Default" version="102">
+<ModelUnits mass="kilogram" length="inch"/>
+<PartFile name="Rack and Pinion Spine.STEP.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.087875630699999985</Mass>
+<CenterOfMass>-0.024764999999999999 -0.0031749999999999999 0.13969999999999996</CenterOfMass>
+<Inertia>0.00057195818627589587 0.00058962776700214757 1.8260141579401856e-05 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Rack and Pinion Spine.STEP_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Rack.STEP" uid="Rack.STEP*:*Default" version="102">
+<ModelUnits mass="kilogram" length="inch"/>
+<PartFile name="Rack.STEP.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.14625159234977858</Mass>
+<CenterOfMass>0.1296541279362162 -0.0031750000000000038 -0.011366190557496802</CenterOfMass>
+<Inertia>0.00042321036185120919 0.0023146398846953476 0.0018924123944828923 0 -0.00050056796642905304 0</Inertia>
+</MassProperties>
+<GeometryFile name="Rack.STEP_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Right Claw Finger.STEP" uid="Right Claw Finger.STEP*:*Default" version="102">
+<ModelUnits mass="kilogram" length="inch"/>
+<PartFile name="Right Claw Finger.STEP.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0067344142151184241</Mass>
+<CenterOfMass>0.017345934353146752 0.07408690508806634 0.00013179127791634727</CenterOfMass>
+<Inertia>1.1223233991983215e-05 4.1506796402916755e-06 1.4863768846706957e-05 6.1396820135664184e-08 1.9352743174789585e-08 -4.3003816291497263e-06</Inertia>
+</MassProperties>
+<GeometryFile name="Right Claw Finger.STEP_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Servo_screw.STEP" uid="Servo_screw.STEP*:*Default" version="102">
+<ModelUnits mass="kilogram" length="inch"/>
+<PartFile name="Servo_screw.STEP.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>7.1672512194541067e-05</Mass>
+<CenterOfMass>4.4823810536997688e-11 0.0059176270872574183 4.6042774221011104e-12</CenterOfMass>
+<Inertia>6.4343642624927558e-10 1.5471347834192062e-10 6.4343376121665345e-10 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Servo_screw.STEP_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Small Motor Mount Base.STEP" uid="Small Motor Mount Base.STEP*:*Default" version="102">
+<ModelUnits mass="kilogram" length="inch"/>
+<PartFile name="Small Motor Mount Base.STEP.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0012765894250862358</Mass>
+<CenterOfMass>0.053200226724757625 -0.0034290000000000279 -0.031947569115917222</CenterOfMass>
+<Inertia>2.6288907508281292e-08 2.0820043844397962e-07 1.8302339692090798e-07 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Small Motor Mount Base.STEP_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Small Motor Mount Front.STEP" uid="Small Motor Mount Front.STEP*:*Default" version="102">
+<ModelUnits mass="kilogram" length="inch"/>
+<PartFile name="Small Motor Mount Front.STEP.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0050984354328728193</Mass>
+<CenterOfMass>0 -0.0034289999999999694 -0.00010097347736573269</CenterOfMass>
+<Inertia>9.1948153790451842e-07 2.5979940425550871e-06 1.6829530685657964e-06 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Small Motor Mount Front.STEP_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Small Motor Mount Triangle.STEP" uid="Small Motor Mount Triangle.STEP*:*Default" version="102">
+<ModelUnits mass="kilogram" length="inch"/>
+<PartFile name="Small Motor Mount Triangle.STEP.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0027026136561435427</Mass>
+<CenterOfMass>-0.048691625796561208 -0.003428999999999988 -0.0051801390887407798</CenterOfMass>
+<Inertia>3.7153677973580266e-07 6.7558396598522383e-07 3.0640107085505796e-07 0 -1.4563648143742099e-07 0</Inertia>
+</MassProperties>
+<GeometryFile name="Small Motor Mount Triangle.STEP_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Small Motor.STEP" uid="Small Motor.STEP*:*Default" version="102">
+<ModelUnits mass="kilogram" length="inch"/>
+<PartFile name="Small Motor.STEP.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.076958314042499865</Mass>
+<CenterOfMass>-0.012667596221700226 -6.6040569894028503e-06 8.9249042564366229e-05</CenterOfMass>
+<Inertia>1.2409949863908778e-05 4.3036887034779849e-05 4.2975758754637822e-05 -4.569517664284799e-11 -2.8827264161851497e-07 1.7425212101279511e-08</Inertia>
+</MassProperties>
+<GeometryFile name="Small Motor.STEP_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Standoffs - Gear Axel Holder" uid="Standoffs - Gear Axel Holder*:*Default" version="131">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Standoffs - Gear Axel Holder.sldprt" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0</Mass>
+<CenterOfMass>0 0 0</CenterOfMass>
+<Inertia>0 0 0 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Standoffs - Gear Axel Holder_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="1" g="0.90980392156862744" b="0.67450980392156867" a="1"/>
+<Diffuse r="0.79000000000000004" g="0.71874509803921571" b="0.53286274509803933" a="1"/>
+<Specular r="0.88" g="0.80062745098039212" b="0.59356862745098049" a="1"/>
+<Emissive r="0.20999999999999999" g="0.19105882352941175" b="0.1416470588235294" a="1"/>
+<Shininess>0.20999999999999999</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Standoffs - Gear Mount" uid="Standoffs - Gear Mount*:*Default" version="131">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Standoffs - Gear Mount.sldprt" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0</Mass>
+<CenterOfMass>0 0 0</CenterOfMass>
+<Inertia>0 0 0 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Standoffs - Gear Mount_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="1" g="0.90980392156862744" b="0.67450980392156867" a="1"/>
+<Diffuse r="0.79000000000000004" g="0.71874509803921571" b="0.53286274509803933" a="1"/>
+<Specular r="0.88" g="0.80062745098039212" b="0.59356862745098049" a="1"/>
+<Emissive r="0.20999999999999999" g="0.19105882352941175" b="0.1416470588235294" a="1"/>
+<Shininess>0.20999999999999999</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Surgical Tool Mount.STEP" uid="Surgical Tool Mount.STEP*:*Default" version="102">
+<ModelUnits mass="kilogram" length="inch"/>
+<PartFile name="Surgical Tool Mount.STEP.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0058780540416568565</Mass>
+<CenterOfMass>3.1862165620052027e-10 -0.02540000060393853 1.0774987718350187e-09</CenterOfMass>
+<Inertia>1.5249303155793195e-06 5.1985633864532116e-07 1.5328110974344098e-06 -4.8452913909582824e-14 6.3938694207250646e-14 0</Inertia>
+</MassProperties>
+<GeometryFile name="Surgical Tool Mount.STEP_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Surgical Tool Support 1.STEP" uid="Surgical Tool Support 1.STEP*:*Default" version="102">
+<ModelUnits mass="kilogram" length="inch"/>
+<PartFile name="Surgical Tool Support 1.STEP.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.025992575417847899</Mass>
+<CenterOfMass>2.2284788449314455e-05 0.069849999999999995 -0.020721333251785497</CenterOfMass>
+<Inertia>1.4616035479630095e-05 1.5669444067155157e-05 1.7521323357158419e-06 0 -8.7658174919490249e-09 0</Inertia>
+</MassProperties>
+<GeometryFile name="Surgical Tool Support 1.STEP_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Surgical Tool Support 2.STEP" uid="Surgical Tool Support 2.STEP*:*Default" version="102">
+<ModelUnits mass="kilogram" length="inch"/>
+<PartFile name="Surgical Tool Support 2.STEP.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0089674752439137632</Mass>
+<CenterOfMass>5.651915952916526e-05 0.044171868489709297 -0.0055880000000000036</CenterOfMass>
+<Inertia>1.1535107697248779e-06 5.6191805131642516e-07 1.578146361376365e-06 0 0 -6.9800600503856006e-09</Inertia>
+</MassProperties>
+<GeometryFile name="Surgical Tool Support 2.STEP_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Surgical Tool Support.STEP" uid="Surgical Tool Support.STEP*:*Default" version="102">
+<ModelUnits mass="kilogram" length="inch"/>
+<PartFile name="Surgical Tool Support.STEP.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0081432571173082752</Mass>
+<CenterOfMass>0.047624999999999994 -0.019050000000000004 -0.084364830000000002</CenterOfMass>
+<Inertia>2.2024946101867447e-06 1.7893777336594221e-06 4.6784295737942382e-07 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Surgical Tool Support.STEP_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Wheel Hub" uid="Wheel Hub*:*Default" version="211">
+<ModelUnits mass="kilogram" length="inch"/>
+<PartFile name="Wheel Hub.sldprt" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0</Mass>
+<CenterOfMass>0 0 0</CenterOfMass>
+<Inertia>0 0 0 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Wheel Hub_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.49803921568627452" g="0.49803921568627452" b="0.49803921568627452" a="1"/>
+<Diffuse r="0.39345098039215687" g="0.39345098039215687" b="0.39345098039215687" a="1"/>
+<Specular r="0.43827450980392157" g="0.43827450980392157" b="0.43827450980392157" a="1"/>
+<Emissive r="0.10458823529411765" g="0.10458823529411765" b="0.10458823529411765" a="1"/>
+<Shininess>0.20999999999999999</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Wheel Hub.STEP" uid="Wheel Hub.STEP*:*Default" version="102">
+<ModelUnits mass="kilogram" length="inch"/>
+<PartFile name="Wheel Hub.STEP.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0091780434142590562</Mass>
+<CenterOfMass>0.32780489680014863 0.087321375148179226 0.015874984334919771</CenterOfMass>
+<Inertia>7.7912352733854688e-07 7.3222778067330737e-07 1.2614129220837277e-06 -3.9243245718834202e-13 -1.1610689908442549e-12 3.431994071536293e-10</Inertia>
+</MassProperties>
+<GeometryFile name="Wheel Hub.STEP_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Wheels 75 Spike" uid="Wheels 75 Spike*:*Default" version="131">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Wheels 75 Spike.sldprt" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0</Mass>
+<CenterOfMass>0 0 0</CenterOfMass>
+<Inertia>0 0 0 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Wheels 75 Spike_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="1" g="0.90980392156862744" b="0.67450980392156867" a="1"/>
+<Diffuse r="0.79000000000000004" g="0.71874509803921571" b="0.53286274509803933" a="1"/>
+<Specular r="0.88" g="0.80062745098039212" b="0.59356862745098049" a="1"/>
+<Emissive r="0.20999999999999999" g="0.19105882352941175" b="0.1416470588235294" a="1"/>
+<Shininess>0.20999999999999999</Shininess>
+</VisualProperties>
+</Part>
+<Part name="ablationtoolholder.STEP" uid="ablationtoolholder.STEP*:*Default" version="102">
+<ModelUnits mass="kilogram" length="inch"/>
+<PartFile name="ablationtoolholder.STEP.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0091678616190950073</Mass>
+<CenterOfMass>-2.1598662392698366e-08 0.062958879611768451 9.6867919470120855e-10</CenterOfMass>
+<Inertia>1.2469375342928791e-05 5.3768984495341431e-07 1.2474619668329327e-05 9.9822169335319093e-13 -2.0083812397679559e-13 8.0851015493504896e-12</Inertia>
+</MassProperties>
+<GeometryFile name="ablationtoolholder.STEP_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="futaba_s3003_servo_servo_body (1).STEP" uid="futaba_s3003_servo_servo_body (1).STEP*:*Default" version="102">
+<ModelUnits mass="kilogram" length="inch"/>
+<PartFile name="futaba_s3003_servo_servo_body (1).STEP.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.028729280602194256</Mass>
+<CenterOfMass>0.019521801846615384 0.018203354158468205 0.0098421098297961588</CenterOfMass>
+<Inertia>4.0533130473216178e-06 4.8383138087004395e-06 7.071938430147542e-06 2.038651890217191e-10 -4.6023971977523957e-11 1.1891661342545287e-07</Inertia>
+</MassProperties>
+<GeometryFile name="futaba_s3003_servo_servo_body (1).STEP_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+</Parts>
+</SimscapeMultibodyImportXML>
